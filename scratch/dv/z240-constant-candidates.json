@@ -1,0 +1,8047 @@
+{
+  "_provenance": {
+    "generator": "CodeRabbit",
+    "version": 1
+  },
+  "input_sha256": {
+    "buffer": "72ba1d4f037ecf82ddf9a99ad7758d627806ac3da2ea2f1638938a990e02787b",
+    "table": "b6751a62b30518034c0d488daf27332dabd9f4cad4affa7d6f581404930b5ab5"
+  },
+  "counts": {
+    "candidate": 817,
+    "unresolved_offset": 44,
+    "unresolved": 46
+  },
+  "entries": [
+    {
+      "index": 1,
+      "offset": 14978,
+      "tag": 113,
+      "length": 9,
+      "hex": "46726f6d56616c7565",
+      "utf8": "FromValue",
+      "status": "candidate"
+    },
+    {
+      "index": 2,
+      "offset": 16665,
+      "tag": 113,
+      "length": 5,
+      "hex": "7461626c65",
+      "utf8": "table",
+      "status": "candidate"
+    },
+    {
+      "index": 3,
+      "offset": 142458,
+      "tag": 113,
+      "length": 0,
+      "hex": "",
+      "utf8": "",
+      "status": "candidate"
+    },
+    {
+      "index": 4,
+      "offset": 15004,
+      "tag": 113,
+      "length": 3,
+      "hex": "6e6577",
+      "utf8": "new",
+      "status": "candidate"
+    },
+    {
+      "index": 5,
+      "offset": 15097,
+      "tag": 113,
+      "length": 4,
+      "hex": "63686172",
+      "utf8": "char",
+      "status": "candidate"
+    },
+    {
+      "index": 6,
+      "offset": 12220,
+      "tag": 70,
+      "value": 909522486,
+      "status": "candidate"
+    },
+    {
+      "index": 7,
+      "offset": 19257,
+      "tag": 113,
+      "length": 4,
+      "hex": "456e756d",
+      "utf8": "Enum",
+      "status": "candidate"
+    },
+    {
+      "index": 8,
+      "offset": 140065,
+      "tag": 167,
+      "value": 0.25,
+      "bits_hex": "0000803e",
+      "classification": "finite",
+      "status": "candidate"
+    },
+    {
+      "index": 9,
+      "offset": 9478,
+      "tag": 70,
+      "value": 881460312,
+      "status": "candidate"
+    },
+    {
+      "index": 10,
+      "offset": 120850,
+      "tag": 169,
+      "value": -1,
+      "status": "candidate"
+    },
+    {
+      "index": 11,
+      "offset": 166886,
+      "tag": 113,
+      "length": 23,
+      "hex": "546865206d6574617461626c65206973206c6f636b6564",
+      "utf8": "The metatable is locked",
+      "status": "candidate"
+    },
+    {
+      "index": 12,
+      "offset": 9175,
+      "tag": 113,
+      "length": 1,
+      "hex": "59",
+      "utf8": "Y",
+      "status": "candidate"
+    },
+    {
+      "index": 13,
+      "offset": 166682,
+      "tag": 113,
+      "length": 27,
+      "hex": "476574506f736974696f6e4f6e43757276654172634c656e677468",
+      "utf8": "GetPositionOnCurveArcLength",
+      "status": "candidate"
+    },
+    {
+      "index": 14,
+      "offset": 142703,
+      "tag": 70,
+      "value": 768900170,
+      "status": "candidate"
+    },
+    {
+      "index": 15,
+      "offset": 145,
+      "tag": 70,
+      "value": 1793604110,
+      "status": "candidate"
+    },
+    {
+      "index": 16,
+      "offset": 157517,
+      "tag": 70,
+      "value": 555819297,
+      "status": "candidate"
+    },
+    {
+      "index": 17,
+      "offset": 8941,
+      "tag": 70,
+      "value": 768900434,
+      "status": "candidate"
+    },
+    {
+      "index": 18,
+      "offset": 136998,
+      "tag": 113,
+      "length": 6,
+      "hex": "756e7061636b",
+      "utf8": "unpack",
+      "status": "candidate"
+    },
+    {
+      "index": 19,
+      "offset": 792,
+      "tag": 237,
+      "value": 3495817888,
+      "status": "candidate"
+    },
+    {
+      "index": 20,
+      "offset": 166921,
+      "tag": 113,
+      "length": 6,
+      "hex": "637265617465",
+      "utf8": "create",
+      "status": "candidate"
+    },
+    {
+      "index": 21,
+      "offset": 137532,
+      "tag": 113,
+      "length": 4,
+      "hex": "556e6974",
+      "utf8": "Unit",
+      "status": "candidate"
+    },
+    {
+      "index": 22,
+      "offset": 236662117,
+      "status": "unresolved_offset"
+    },
+    {
+      "index": 23,
+      "offset": 140114,
+      "tag": 237,
+      "value": 4254086550,
+      "status": "candidate"
+    },
+    {
+      "index": 24,
+      "offset": 15044,
+      "tag": 242,
+      "value": 32,
+      "status": "candidate"
+    },
+    {
+      "index": 25,
+      "offset": 9035,
+      "tag": 242,
+      "value": 16,
+      "status": "candidate"
+    },
+    {
+      "index": 26,
+      "offset": 15028,
+      "tag": 113,
+      "length": 14,
+      "hex": "4e657874556e6974566563746f72",
+      "utf8": "NextUnitVector",
+      "status": "candidate"
+    },
+    {
+      "index": 27,
+      "offset": 9394,
+      "tag": 242,
+      "value": 0,
+      "status": "candidate"
+    },
+    {
+      "index": 28,
+      "offset": 22325,
+      "tag": 113,
+      "length": 8,
+      "hex": "506f736974696f6e",
+      "utf8": "Position",
+      "status": "candidate"
+    },
+    {
+      "index": 29,
+      "offset": 142910,
+      "tag": 237,
+      "value": 2372129226,
+      "status": "candidate"
+    },
+    {
+      "index": 30,
+      "offset": 19236,
+      "tag": 113,
+      "length": 4,
+      "hex": "62797465",
+      "utf8": "byte",
+      "status": "candidate"
+    },
+    {
+      "index": 31,
+      "offset": 9343,
+      "tag": 113,
+      "length": 6,
+      "hex": "63616e63656c",
+      "utf8": "cancel",
+      "status": "candidate"
+    },
+    {
+      "index": 32,
+      "offset": 157402,
+      "tag": 237,
+      "value": 3941264106,
+      "status": "candidate"
+    },
+    {
+      "index": 33,
+      "offset": 9823,
+      "tag": 113,
+      "length": 6,
+      "hex": "766563746f72",
+      "utf8": "vector",
+      "status": "candidate"
+    },
+    {
+      "index": 34,
+      "offset": 20552,
+      "tag": 70,
+      "value": 263884560,
+      "status": "candidate"
+    },
+    {
+      "index": 35,
+      "offset": 879,
+      "tag": 237,
+      "value": 3565814503,
+      "status": "candidate"
+    },
+    {
+      "index": 36,
+      "offset": 9046,
+      "tag": 70,
+      "value": 912129259,
+      "status": "candidate"
+    },
+    {
+      "index": 37,
+      "offset": 15046,
+      "tag": 70,
+      "value": 2147483647,
+      "status": "candidate"
+    },
+    {
+      "index": 38,
+      "offset": 144759,
+      "tag": 237,
+      "value": 3306524405,
+      "status": "candidate"
+    },
+    {
+      "index": 39,
+      "offset": 137023,
+      "tag": 113,
+      "length": 3,
+      "hex": "3e4934",
+      "utf8": ">I4",
+      "status": "candidate"
+    },
+    {
+      "index": 40,
+      "offset": 157546,
+      "tag": 237,
+      "value": 3722304989,
+      "status": "candidate"
+    },
+    {
+      "index": 41,
+      "offset": 142873,
+      "tag": 113,
+      "length": 7,
+      "hex": "44657374726f79",
+      "utf8": "Destroy",
+      "status": "candidate"
+    },
+    {
+      "index": 42,
+      "offset": 204,
+      "tag": 113,
+      "length": 1,
+      "hex": "5a",
+      "utf8": "Z",
+      "status": "candidate"
+    },
+    {
+      "index": 43,
+      "offset": 132456,
+      "tag": 113,
+      "length": 2,
+      "hex": "3c66",
+      "utf8": "<f",
+      "status": "candidate"
+    },
+    {
+      "index": 44,
+      "offset": 12787,
+      "tag": 113,
+      "length": 7,
+      "hex": "5f5f696e646578",
+      "utf8": "__index",
+      "status": "candidate"
+    },
+    {
+      "index": 45,
+      "offset": 165425,
+      "tag": 31,
+      "value": false,
+      "status": "candidate"
+    },
+    {
+      "index": 46,
+      "offset": 165208,
+      "tag": 113,
+      "length": 9,
+      "hex": "73757370656e646564",
+      "utf8": "suspended",
+      "status": "candidate"
+    },
+    {
+      "index": 47,
+      "offset": 11286,
+      "tag": 237,
+      "value": 2740740359,
+      "status": "candidate"
+    },
+    {
+      "index": 48,
+      "offset": 144623,
+      "tag": 167,
+      "value": 4503599627370496.0,
+      "bits_hex": "00008059",
+      "classification": "finite",
+      "status": "candidate"
+    },
+    {
+      "index": 49,
+      "offset": 144775,
+      "tag": 113,
+      "length": 11,
+      "hex": "4765744368696c6472656e",
+      "utf8": "GetChildren",
+      "status": "candidate"
+    },
+    {
+      "index": 50,
+      "offset": 137423,
+      "tag": 113,
+      "length": 6,
+      "hex": "506172656e74",
+      "utf8": "Parent",
+      "status": "candidate"
+    },
+    {
+      "index": 51,
+      "offset": 132451,
+      "tag": 70,
+      "value": 1431655765,
+      "status": "candidate"
+    },
+    {
+      "index": 52,
+      "offset": 143231,
+      "tag": 113,
+      "length": 8,
+      "hex": "46726f6d41786973",
+      "utf8": "FromAxis",
+      "status": "candidate"
+    },
+    {
+      "index": 53,
+      "offset": 143023,
+      "tag": 237,
+      "value": 2509608341,
+      "status": "candidate"
+    },
+    {
+      "index": 54,
+      "offset": 9758,
+      "tag": 113,
+      "length": 8,
+      "hex": "4973536572766572",
+      "utf8": "IsServer",
+      "status": "candidate"
+    },
+    {
+      "index": 55,
+      "offset": 143060,
+      "tag": 70,
+      "value": 1263909914,
+      "status": "candidate"
+    },
+    {
+      "index": 56,
+      "offset": 90178,
+      "tag": 113,
+      "length": 11,
+      "hex": "4e657874496e7465676572",
+      "utf8": "NextInteger",
+      "status": "candidate"
+    },
+    {
+      "index": 57,
+      "offset": 9210,
+      "tag": 113,
+      "length": 8,
+      "hex": "456e756d54797065",
+      "utf8": "EnumType",
+      "status": "candidate"
+    },
+    {
+      "index": 58,
+      "offset": 132597,
+      "tag": 237,
+      "value": 2933973557,
+      "status": "candidate"
+    },
+    {
+      "index": 59,
+      "offset": 20714,
+      "tag": 113,
+      "length": 4,
+      "hex": "57616974",
+      "utf8": "Wait",
+      "status": "candidate"
+    },
+    {
+      "index": 60,
+      "offset": 143287,
+      "tag": 237,
+      "value": 4032437247,
+      "status": "candidate"
+    },
+    {
+      "index": 61,
+      "offset": 13331,
+      "tag": 237,
+      "value": 2197783194,
+      "status": "candidate"
+    },
+    {
+      "index": 62,
+      "offset": 19123,
+      "tag": 242,
+      "value": 6,
+      "status": "candidate"
+    },
+    {
+      "index": 63,
+      "offset": 7851,
+      "tag": 242,
+      "value": 4,
+      "status": "candidate"
+    },
+    {
+      "index": 64,
+      "offset": 137040,
+      "tag": 70,
+      "value": 2004139512,
+      "status": "candidate"
+    },
+    {
+      "index": 65,
+      "offset": 9488,
+      "tag": 242,
+      "value": 8,
+      "status": "candidate"
+    },
+    {
+      "index": 66,
+      "offset": 236538016,
+      "status": "unresolved_offset"
+    },
+    {
+      "index": 67,
+      "offset": 12854,
+      "tag": 70,
+      "value": 1192041402,
+      "status": "candidate"
+    },
+    {
+      "index": 68,
+      "offset": 7844,
+      "tag": 113,
+      "length": 5,
+      "hex": "5363616c65",
+      "utf8": "Scale",
+      "status": "candidate"
+    },
+    {
+      "index": 69,
+      "offset": 90191,
+      "tag": 237,
+      "value": 2147483648,
+      "status": "candidate"
+    },
+    {
+      "index": 70,
+      "offset": 115976,
+      "tag": 113,
+      "length": 8,
+      "hex": "7573657264617461",
+      "utf8": "userdata",
+      "status": "candidate"
+    },
+    {
+      "index": 71,
+      "offset": 137353,
+      "tag": 70,
+      "value": 1397969747,
+      "status": "candidate"
+    },
+    {
+      "index": 72,
+      "offset": 20575,
+      "tag": 113,
+      "length": 8,
+      "hex": "497353747564696f",
+      "utf8": "IsStudio",
+      "status": "candidate"
+    },
+    {
+      "index": 73,
+      "offset": 166306,
+      "tag": 113,
+      "length": 9,
+      "hex": "53637265656e477569",
+      "utf8": "ScreenGui",
+      "status": "candidate"
+    },
+    {
+      "index": 74,
+      "offset": 7839,
+      "tag": 70,
+      "value": 611660415,
+      "status": "candidate"
+    },
+    {
+      "index": 75,
+      "offset": 9413,
+      "tag": 113,
+      "length": 1,
+      "hex": "58",
+      "utf8": "X",
+      "status": "candidate"
+    },
+    {
+      "index": 76,
+      "offset": 142915,
+      "tag": 70,
+      "value": 2097184102,
+      "status": "candidate"
+    },
+    {
+      "index": 77,
+      "offset": 144812,
+      "tag": 113,
+      "length": 3,
+      "hex": "3c4934",
+      "utf8": "<I4",
+      "status": "candidate"
+    },
+    {
+      "index": 78,
+      "offset": 95094,
+      "tag": 242,
+      "value": 255,
+      "status": "candidate"
+    },
+    {
+      "index": 79,
+      "offset": 132426,
+      "tag": 113,
+      "length": 8,
+      "hex": "4e6f726d616c4964",
+      "utf8": "NormalId",
+      "status": "candidate"
+    },
+    {
+      "index": 80,
+      "offset": 236674809,
+      "status": "unresolved_offset"
+    },
+    {
+      "index": 81,
+      "offset": 19307,
+      "tag": 237,
+      "value": 3196075699,
+      "status": "candidate"
+    },
+    {
+      "index": 82,
+      "offset": 120857,
+      "tag": 113,
+      "length": 6,
+      "hex": "466f6c646572",
+      "utf8": "Folder",
+      "status": "candidate"
+    },
+    {
+      "index": 83,
+      "offset": 13415,
+      "tag": 170,
+      "length": 5,
+      "hex": "02841f841b",
+      "captures": [
+        [
+          3,
+          9644,
+          135
+        ],
+        [
+          3,
+          9644,
+          134
+        ]
+      ],
+      "remaining_hex": "",
+      "status": "candidate"
+    },
+    {
+      "index": 84,
+      "offset": 166715,
+      "tag": 31,
+      "value": true,
+      "status": "candidate"
+    },
+    {
+      "index": 85,
+      "offset": 9051,
+      "tag": 113,
+      "length": 4,
+      "hex": "75746638",
+      "utf8": "utf8",
+      "status": "candidate"
+    },
+    {
+      "index": 86,
+      "offset": 8118,
+      "tag": 242,
+      "value": 4,
+      "status": "candidate"
+    },
+    {
+      "index": 87,
+      "offset": 16660,
+      "tag": 237,
+      "value": 4294967295,
+      "status": "candidate"
+    },
+    {
+      "index": 88,
+      "offset": 95101,
+      "tag": 113,
+      "length": 18,
+      "hex": "476574506f736974696f6e4f6e4375727665",
+      "utf8": "GetPositionOnCurve",
+      "status": "candidate"
+    },
+    {
+      "index": 89,
+      "offset": 46,
+      "tag": 113,
+      "length": 9,
+      "hex": "436f6e6e6563746564",
+      "utf8": "Connected",
+      "status": "candidate"
+    },
+    {
+      "index": 90,
+      "offset": 236540847,
+      "status": "unresolved_offset"
+    },
+    {
+      "index": 91,
+      "offset": 142397,
+      "tag": 113,
+      "length": 6,
+      "hex": "6e756d626572",
+      "utf8": "number",
+      "status": "candidate"
+    },
+    {
+      "index": 92,
+      "offset": 90791,
+      "tag": 113,
+      "length": 10,
+      "hex": "446973636f6e6e656374",
+      "utf8": "Disconnect",
+      "status": "candidate"
+    },
+    {
+      "index": 93,
+      "offset": 671,
+      "tag": 70,
+      "value": 1810284895,
+      "status": "candidate"
+    },
+    {
+      "index": 94,
+      "offset": 9066,
+      "tag": 237,
+      "value": 2930683566,
+      "status": "candidate"
+    },
+    {
+      "index": 95,
+      "offset": 115933,
+      "tag": 70,
+      "value": 1248440564,
+      "status": "candidate"
+    },
+    {
+      "index": 96,
+      "offset": 22379,
+      "tag": 242,
+      "value": 0,
+      "status": "candidate"
+    },
+    {
+      "index": 97,
+      "offset": 16583,
+      "tag": 170,
+      "length": 1,
+      "hex": "00",
+      "captures": [],
+      "remaining_hex": "",
+      "status": "candidate"
+    },
+    {
+      "index": 98,
+      "offset": 132406,
+      "tag": 237,
+      "value": 4254086684,
+      "status": "candidate"
+    },
+    {
+      "index": 99,
+      "offset": 9106,
+      "tag": 70,
+      "value": 294606708,
+      "status": "candidate"
+    },
+    {
+      "index": 100,
+      "offset": 20526,
+      "tag": 113,
+      "length": 3,
+      "hex": "497341",
+      "utf8": "IsA",
+      "status": "candidate"
+    },
+    {
+      "index": 101,
+      "offset": 145287,
+      "tag": 113,
+      "length": 2,
+      "hex": "3e66",
+      "utf8": ">f",
+      "status": "candidate"
+    },
+    {
+      "index": 102,
+      "offset": 166776,
+      "tag": 113,
+      "length": 5,
+      "hex": "4672616d65",
+      "utf8": "Frame",
+      "status": "candidate"
+    },
+    {
+      "index": 103,
+      "offset": 19273,
+      "tag": 113,
+      "length": 6,
+      "hex": "737472696e67",
+      "utf8": "string",
+      "status": "candidate"
+    },
+    {
+      "index": 104,
+      "offset": 145219,
+      "tag": 237,
+      "value": 4031082869,
+      "status": "candidate"
+    },
+    {
+      "index": 105,
+      "offset": 7797,
+      "tag": 113,
+      "length": 7,
+      "hex": "436f6e6e656374",
+      "utf8": "Connect",
+      "status": "candidate"
+    },
+    {
+      "index": 106,
+      "offset": 9132,
+      "tag": 113,
+      "length": 10,
+      "hex": "47657453657276696365",
+      "utf8": "GetService",
+      "status": "candidate"
+    },
+    {
+      "index": 107,
+      "offset": 157382,
+      "tag": 113,
+      "length": 8,
+      "hex": "46726f6d4e616d65",
+      "utf8": "FromName",
+      "status": "candidate"
+    },
+    {
+      "index": 108,
+      "offset": 137358,
+      "tag": 70,
+      "value": 33866261,
+      "status": "candidate"
+    },
+    {
+      "index": 109,
+      "offset": 115931,
+      "tag": 169,
+      "value": -1,
+      "status": "candidate"
+    },
+    {
+      "index": 110,
+      "offset": 157575,
+      "tag": 113,
+      "length": 20,
+      "hex": "6d6174685f666c6f6f725f707265636973696f6e",
+      "utf8": "math_floor_precision",
+      "status": "candidate"
+    },
+    {
+      "index": 111,
+      "offset": 143124,
+      "tag": 113,
+      "length": 7,
+      "hex": "53687566666c65",
+      "utf8": "Shuffle",
+      "status": "candidate"
+    },
+    {
+      "index": 112,
+      "offset": 140178,
+      "tag": 237,
+      "value": 3031057382,
+      "status": "candidate"
+    },
+    {
+      "index": 113,
+      "offset": 19228,
+      "tag": 70,
+      "value": 768900567,
+      "status": "candidate"
+    },
+    {
+      "index": 114,
+      "offset": 9005,
+      "tag": 237,
+      "value": 3735914468,
+      "status": "candidate"
+    },
+    {
+      "index": 115,
+      "offset": 16731,
+      "tag": 113,
+      "length": 4,
+      "hex": "4e616d65",
+      "utf8": "Name",
+      "status": "candidate"
+    },
+    {
+      "index": 116,
+      "offset": 15070,
+      "tag": 242,
+      "value": 1,
+      "status": "candidate"
+    },
+    {
+      "index": 117,
+      "offset": 797,
+      "tag": 113,
+      "length": 10,
+      "hex": "4e6578744e756d626572",
+      "utf8": "NextNumber",
+      "status": "candidate"
+    },
+    {
+      "index": 118,
+      "offset": 120875,
+      "tag": 113,
+      "length": 8,
+      "hex": "496e7374616e6365",
+      "utf8": "Instance",
+      "status": "candidate"
+    },
+    {
+      "index": 119,
+      "offset": 157380,
+      "tag": 242,
+      "value": 2,
+      "status": "candidate"
+    },
+    {
+      "index": 120,
+      "offset": 90889,
+      "tag": 70,
+      "value": 1942396333,
+      "status": "candidate"
+    },
+    {
+      "index": 121,
+      "offset": 9813,
+      "tag": 70,
+      "value": 1103515245,
+      "status": "candidate"
+    },
+    {
+      "index": 122,
+      "offset": 20184,
+      "tag": 113,
+      "length": 8,
+      "hex": "4973436c69656e74",
+      "utf8": "IsClient",
+      "status": "candidate"
+    },
+    {
+      "index": 123,
+      "offset": 157367,
+      "tag": 113,
+      "length": 1,
+      "hex": "61",
+      "utf8": "a",
+      "status": "candidate"
+    },
+    {
+      "index": 124,
+      "offset": 22335,
+      "tag": 113,
+      "length": 5,
+      "hex": "436c6f6e65",
+      "utf8": "Clone",
+      "status": "candidate"
+    },
+    {
+      "index": 125,
+      "offset": 137035,
+      "tag": 70,
+      "value": 2147483647,
+      "status": "candidate"
+    },
+    {
+      "index": 126,
+      "offset": 166872,
+      "tag": 113,
+      "length": 1,
+      "hex": "66",
+      "utf8": "f",
+      "status": "candidate"
+    },
+    {
+      "index": 127,
+      "offset": 16591,
+      "tag": 113,
+      "length": 17,
+      "hex": "47657454616e67656e744f6e4375727665",
+      "utf8": "GetTangentOnCurve",
+      "status": "candidate"
+    },
+    {
+      "index": 128,
+      "offset": 252,
+      "tag": 167,
+      "value": 4294967296.0,
+      "bits_hex": "0000804f",
+      "classification": "finite",
+      "status": "candidate"
+    },
+    {
+      "index": 129,
+      "offset": 20686,
+      "tag": 237,
+      "value": 3798797453,
+      "status": "candidate"
+    },
+    {
+      "index": 130,
+      "offset": 13403,
+      "tag": 242,
+      "value": 30,
+      "status": "candidate"
+    },
+    {
+      "index": 131,
+      "offset": 861,
+      "tag": 113,
+      "length": 11,
+      "hex": "5269676874566563746f72",
+      "utf8": "RightVector",
+      "status": "candidate"
+    },
+    {
+      "index": 132,
+      "offset": 8113,
+      "tag": 70,
+      "value": 645214477,
+      "status": "candidate"
+    },
+    {
+      "index": 133,
+      "offset": 145248,
+      "tag": 237,
+      "value": 3262990149,
+      "status": "candidate"
+    },
+    {
+      "index": 134,
+      "offset": 236540435,
+      "status": "unresolved_offset"
+    },
+    {
+      "index": 135,
+      "offset": 9255,
+      "tag": 237,
+      "value": 3683299856,
+      "status": "candidate"
+    },
+    {
+      "index": 136,
+      "offset": 9246,
+      "tag": 218,
+      "bits_hex": "f8f135a15119ce3f",
+      "value": 0.2351476704751716,
+      "classification": "finite",
+      "status": "candidate"
+    },
+    {
+      "index": 137,
+      "offset": 144851,
+      "tag": 113,
+      "length": 12,
+      "hex": "6765746d6574617461626c65",
+      "utf8": "getmetatable",
+      "status": "candidate"
+    },
+    {
+      "index": 138,
+      "offset": 16586,
+      "tag": 237,
+      "value": 2622348432,
+      "status": "candidate"
+    },
+    {
+      "index": 139,
+      "offset": 142868,
+      "tag": 70,
+      "value": 1999874043,
+      "status": "candidate"
+    },
+    {
+      "index": 140,
+      "offset": 137059,
+      "tag": 184,
+      "status": "unresolved",
+      "reason": "unsupported constant tag 184 at index 140"
+    },
+    {
+      "index": 141,
+      "offset": 157490,
+      "tag": 170,
+      "length": 5,
+      "hex": "028717837b",
+      "captures": [
+        [
+          3,
+          9644,
+          229
+        ],
+        [
+          3,
+          9644,
+          126
+        ]
+      ],
+      "remaining_hex": "",
+      "status": "candidate"
+    },
+    {
+      "index": 142,
+      "offset": 165336,
+      "tag": 203,
+      "kind": "Vector3",
+      "components": [
+        0.9372339248657227,
+        0.44925424456596375,
+        0.37131017446517944
+      ],
+      "bits_hex": [
+        "90ee6f3f",
+        "a704e63e",
+        "5e1cbe3e"
+      ],
+      "classifications": [
+        "finite",
+        "finite",
+        "finite"
+      ],
+      "status": "candidate"
+    },
+    {
+      "index": 143,
+      "offset": 157624,
+      "tag": 184,
+      "status": "unresolved",
+      "reason": "unsupported constant tag 184 at index 143"
+    },
+    {
+      "index": 144,
+      "offset": 142428,
+      "tag": 113,
+      "length": 12,
+      "hex": "46726f6d4e6f726d616c4964",
+      "utf8": "FromNormalId",
+      "status": "candidate"
+    },
+    {
+      "index": 145,
+      "offset": 143167,
+      "tag": 70,
+      "value": 1732294838,
+      "status": "candidate"
+    },
+    {
+      "index": 146,
+      "offset": 9818,
+      "tag": 70,
+      "value": 671092749,
+      "status": "candidate"
+    },
+    {
+      "index": 147,
+      "offset": 143007,
+      "tag": 237,
+      "value": 2549105725,
+      "status": "candidate"
+    },
+    {
+      "index": 148,
+      "offset": 9421,
+      "tag": 237,
+      "value": 3541046053,
+      "status": "candidate"
+    },
+    {
+      "index": 149,
+      "offset": 16551,
+      "tag": 70,
+      "value": 2036477234,
+      "status": "candidate"
+    },
+    {
+      "index": 150,
+      "offset": 142499,
+      "tag": 169,
+      "value": -60,
+      "status": "candidate"
+    },
+    {
+      "index": 151,
+      "offset": 90724,
+      "tag": 242,
+      "value": 48,
+      "status": "candidate"
+    },
+    {
+      "index": 152,
+      "offset": 140183,
+      "tag": 113,
+      "length": 7,
+      "hex": "72656164753136",
+      "utf8": "readu16",
+      "status": "candidate"
+    },
+    {
+      "index": 153,
+      "offset": 120806,
+      "tag": 113,
+      "length": 6,
+      "hex": "506174683244",
+      "utf8": "Path2D",
+      "status": "candidate"
+    },
+    {
+      "index": 154,
+      "offset": 19101,
+      "tag": 113,
+      "length": 6,
+      "hex": "6c7368696674",
+      "utf8": "lshift",
+      "status": "candidate"
+    },
+    {
+      "index": 155,
+      "offset": 236550285,
+      "status": "unresolved_offset"
+    },
+    {
+      "index": 156,
+      "offset": 759,
+      "tag": 203,
+      "kind": "Vector3",
+      "components": [
+        0.050513941794633865,
+        0.4276949465274811,
+        0.8928467035293579
+      ],
+      "bits_hex": [
+        "b5e74e3d",
+        "d5fada3e",
+        "9a91643f"
+      ],
+      "classifications": [
+        "finite",
+        "finite",
+        "finite"
+      ],
+      "status": "candidate"
+    },
+    {
+      "index": 157,
+      "offset": 238,
+      "tag": 104,
+      "value": 8589934592,
+      "low_word": 0,
+      "high_word": 2,
+      "status": "candidate"
+    },
+    {
+      "index": 158,
+      "offset": 22383,
+      "tag": 113,
+      "length": 56,
+      "hex": "497462535053672e6c75613a3134343a20617474656d707420746f20676574206c656e677468206f662061207468726561642076616c7565",
+      "utf8": "ItbSPSg.lua:144: attempt to get length of a thread value",
+      "status": "candidate"
+    },
+    {
+      "index": 159,
+      "offset": 157510,
+      "tag": 242,
+      "value": 22,
+      "status": "candidate"
+    },
+    {
+      "index": 160,
+      "offset": 9623,
+      "tag": 113,
+      "length": 6,
+      "hex": "676d61746368",
+      "utf8": "gmatch",
+      "status": "candidate"
+    },
+    {
+      "index": 161,
+      "offset": 143195,
+      "tag": 170,
+      "length": 4,
+      "hex": "03331115",
+      "captures": [
+        [
+          3,
+          9644,
+          12
+        ],
+        [
+          1,
+          9644,
+          4
+        ],
+        [
+          1,
+          9644,
+          5
+        ]
+      ],
+      "remaining_hex": "",
+      "status": "candidate"
+    },
+    {
+      "index": 162,
+      "offset": 12250,
+      "tag": 170,
+      "length": 13,
+      "hex": "06836783638357827f835b8313",
+      "captures": [
+        [
+          3,
+          9644,
+          121
+        ],
+        [
+          3,
+          9644,
+          120
+        ],
+        [
+          3,
+          9644,
+          117
+        ],
+        [
+          3,
+          9644,
+          95
+        ],
+        [
+          3,
+          9644,
+          118
+        ],
+        [
+          3,
+          9644,
+          100
+        ]
+      ],
+      "remaining_hex": "",
+      "status": "candidate"
+    },
+    {
+      "index": 163,
+      "offset": 681,
+      "tag": 170,
+      "length": 11,
+      "hex": "0583378333836f833f8377",
+      "captures": [
+        [
+          3,
+          9644,
+          109
+        ],
+        [
+          3,
+          9644,
+          108
+        ],
+        [
+          3,
+          9644,
+          123
+        ],
+        [
+          3,
+          9644,
+          111
+        ],
+        [
+          3,
+          9644,
+          125
+        ]
+      ],
+      "remaining_hex": "",
+      "status": "candidate"
+    },
+    {
+      "index": 164,
+      "offset": 12837,
+      "tag": 237,
+      "value": 2384586277,
+      "status": "candidate"
+    },
+    {
+      "index": 165,
+      "offset": 144796,
+      "tag": 113,
+      "length": 9,
+      "hex": "636f6465706f696e74",
+      "utf8": "codepoint",
+      "status": "candidate"
+    },
+    {
+      "index": 166,
+      "offset": 9363,
+      "tag": 70,
+      "value": 957923812,
+      "status": "candidate"
+    },
+    {
+      "index": 167,
+      "offset": 165437,
+      "tag": 237,
+      "value": 2791913353,
+      "status": "candidate"
+    },
+    {
+      "index": 168,
+      "offset": 9444,
+      "tag": 113,
+      "length": 10,
+      "hex": "52756e53657276696365",
+      "utf8": "RunService",
+      "status": "candidate"
+    },
+    {
+      "index": 169,
+      "offset": 11279,
+      "tag": 237,
+      "value": 3447116473,
+      "status": "candidate"
+    },
+    {
+      "index": 170,
+      "offset": 165274,
+      "tag": 237,
+      "value": 2987181020,
+      "status": "candidate"
+    },
+    {
+      "index": 171,
+      "offset": 140094,
+      "tag": 113,
+      "length": 4,
+      "hex": "66696c6c",
+      "utf8": "fill",
+      "status": "candidate"
+    },
+    {
+      "index": 172,
+      "offset": 11264,
+      "tag": 237,
+      "value": 2941498466,
+      "status": "candidate"
+    },
+    {
+      "index": 173,
+      "offset": 143241,
+      "tag": 170,
+      "length": 7,
+      "hex": "038667841f841b",
+      "captures": [
+        [
+          3,
+          9644,
+          217
+        ],
+        [
+          3,
+          9644,
+          135
+        ],
+        [
+          3,
+          9644,
+          134
+        ]
+      ],
+      "remaining_hex": "",
+      "status": "candidate"
+    },
+    {
+      "index": 174,
+      "offset": 236583431,
+      "status": "unresolved_offset"
+    },
+    {
+      "index": 175,
+      "offset": 142849,
+      "tag": 70,
+      "value": 1892995312,
+      "status": "candidate"
+    },
+    {
+      "index": 176,
+      "offset": 142955,
+      "tag": 104,
+      "value": -5220099155,
+      "low_word": 3369835437,
+      "high_word": 4294967294,
+      "status": "candidate"
+    },
+    {
+      "index": 177,
+      "offset": 142935,
+      "tag": 113,
+      "length": 18,
+      "hex": "506174683244436f6e74726f6c506f696e74",
+      "utf8": "Path2DControlPoint",
+      "status": "candidate"
+    },
+    {
+      "index": 178,
+      "offset": 16737,
+      "tag": 113,
+      "length": 26,
+      "hex": "ed8a99eb82a2ebafa9ed998deab095c5a5eb9d9bed908aeb879a",
+      "utf8": "\ud299\ub0a2\ubbe9\ud64d\uac15\u0165\ub75b\ud40a\ub1da",
+      "status": "candidate"
+    },
+    {
+      "index": 179,
+      "offset": 772,
+      "tag": 70,
+      "value": 587870721,
+      "status": "candidate"
+    },
+    {
+      "index": 180,
+      "offset": 16701,
+      "tag": 113,
+      "length": 4,
+      "hex": "67737562",
+      "utf8": "gsub",
+      "status": "candidate"
+    },
+    {
+      "index": 181,
+      "offset": 143177,
+      "tag": 237,
+      "value": 3673104056,
+      "status": "candidate"
+    },
+    {
+      "index": 182,
+      "offset": 137548,
+      "tag": 113,
+      "length": 6,
+      "hex": "726573756d65",
+      "utf8": "resume",
+      "status": "candidate"
+    },
+    {
+      "index": 183,
+      "offset": 707,
+      "tag": 237,
+      "value": 4131123009,
+      "status": "candidate"
+    },
+    {
+      "index": 184,
+      "offset": 142655,
+      "tag": 113,
+      "length": 8,
+      "hex": "526f746174696f6e",
+      "utf8": "Rotation",
+      "status": "candidate"
+    },
+    {
+      "index": 185,
+      "offset": 144764,
+      "tag": 113,
+      "length": 4,
+      "hex": "7461736b",
+      "utf8": "task",
+      "status": "candidate"
+    },
+    {
+      "index": 186,
+      "offset": 144670,
+      "tag": 237,
+      "value": 2853502382,
+      "status": "candidate"
+    },
+    {
+      "index": 187,
+      "offset": 13351,
+      "tag": 170,
+      "length": 11,
+      "hex": "0a052b09676f0d1115197b",
+      "captures": [
+        [
+          1,
+          9644,
+          1
+        ],
+        [
+          3,
+          9644,
+          10
+        ],
+        [
+          1,
+          9644,
+          2
+        ],
+        [
+          3,
+          9644,
+          25
+        ],
+        [
+          3,
+          9644,
+          27
+        ],
+        [
+          1,
+          9644,
+          3
+        ],
+        [
+          1,
+          9644,
+          4
+        ],
+        [
+          1,
+          9644,
+          5
+        ],
+        [
+          1,
+          9644,
+          6
+        ],
+        [
+          3,
+          9644,
+          30
+        ]
+      ],
+      "remaining_hex": "",
+      "status": "candidate"
+    },
+    {
+      "index": 188,
+      "offset": 236551000,
+      "status": "unresolved_offset"
+    },
+    {
+      "index": 189,
+      "offset": 12819,
+      "tag": 70,
+      "value": 1820747427,
+      "status": "candidate"
+    },
+    {
+      "index": 190,
+      "offset": 694,
+      "tag": 203,
+      "kind": "Vector3",
+      "components": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "bits_hex": [
+        "0000803f",
+        "00000000",
+        "00000000"
+      ],
+      "classifications": [
+        "finite",
+        "finite",
+        "finite"
+      ],
+      "status": "candidate"
+    },
+    {
+      "index": 191,
+      "offset": 132411,
+      "tag": 237,
+      "value": 2911962129,
+      "status": "candidate"
+    },
+    {
+      "index": 192,
+      "offset": 140173,
+      "tag": 237,
+      "value": 2963907332,
+      "status": "candidate"
+    },
+    {
+      "index": 193,
+      "offset": 145267,
+      "tag": 237,
+      "value": 2562672458,
+      "status": "candidate"
+    },
+    {
+      "index": 194,
+      "offset": 142405,
+      "tag": 242,
+      "value": 8,
+      "status": "candidate"
+    },
+    {
+      "index": 195,
+      "offset": 8953,
+      "tag": 113,
+      "length": 12,
+      "hex": "546f576f726c645370616365",
+      "utf8": "ToWorldSpace",
+      "status": "candidate"
+    },
+    {
+      "index": 196,
+      "offset": 8630,
+      "tag": 184,
+      "status": "unresolved",
+      "reason": "unsupported constant tag 184 at index 196"
+    },
+    {
+      "index": 197,
+      "offset": 95128,
+      "tag": 70,
+      "value": 1354505243,
+      "status": "candidate"
+    },
+    {
+      "index": 198,
+      "offset": 137028,
+      "tag": 237,
+      "value": 3795671525,
+      "status": "candidate"
+    },
+    {
+      "index": 199,
+      "offset": 22441,
+      "tag": 113,
+      "length": 4,
+      "hex": "626e6f74",
+      "utf8": "bnot",
+      "status": "candidate"
+    },
+    {
+      "index": 200,
+      "offset": 90810,
+      "tag": 237,
+      "value": 2585564873,
+      "status": "candidate"
+    },
+    {
+      "index": 201,
+      "offset": 144907,
+      "tag": 70,
+      "value": 977407053,
+      "status": "candidate"
+    },
+    {
+      "index": 202,
+      "offset": 144702,
+      "tag": 113,
+      "length": 9,
+      "hex": "506f73744173796e63",
+      "utf8": "PostAsync",
+      "status": "candidate"
+    },
+    {
+      "index": 203,
+      "offset": 9798,
+      "tag": 113,
+      "length": 8,
+      "hex": "7772697465663634",
+      "utf8": "writef64",
+      "status": "candidate"
+    },
+    {
+      "index": 204,
+      "offset": 236627324,
+      "status": "unresolved_offset"
+    },
+    {
+      "index": 205,
+      "offset": 12847,
+      "tag": 113,
+      "length": 5,
+      "hex": "737061776e",
+      "utf8": "spawn",
+      "status": "candidate"
+    },
+    {
+      "index": 206,
+      "offset": 144902,
+      "tag": 113,
+      "length": 3,
+      "hex": "416273",
+      "utf8": "Abs",
+      "status": "candidate"
+    },
+    {
+      "index": 207,
+      "offset": 142665,
+      "tag": 237,
+      "value": 3942379424,
+      "status": "candidate"
+    },
+    {
+      "index": 208,
+      "offset": 236682793,
+      "status": "unresolved_offset"
+    },
+    {
+      "index": 209,
+      "offset": 20720,
+      "tag": 169,
+      "value": -105,
+      "status": "candidate"
+    },
+    {
+      "index": 210,
+      "offset": 12817,
+      "tag": 242,
+      "value": 13,
+      "status": "candidate"
+    },
+    {
+      "index": 211,
+      "offset": 144645,
+      "tag": 70,
+      "value": 1862270720,
+      "status": "candidate"
+    },
+    {
+      "index": 212,
+      "offset": 747,
+      "tag": 113,
+      "length": 10,
+      "hex": "66726f6d4d6174726978",
+      "utf8": "fromMatrix",
+      "status": "candidate"
+    },
+    {
+      "index": 213,
+      "offset": 635,
+      "tag": 170,
+      "length": 19,
+      "hex": "09840b837f8407832b833b8403842f84338437",
+      "captures": [
+        [
+          3,
+          9644,
+          130
+        ],
+        [
+          3,
+          9644,
+          127
+        ],
+        [
+          3,
+          9644,
+          129
+        ],
+        [
+          3,
+          9644,
+          106
+        ],
+        [
+          3,
+          9644,
+          110
+        ],
+        [
+          3,
+          9644,
+          128
+        ],
+        [
+          3,
+          9644,
+          139
+        ],
+        [
+          3,
+          9644,
+          140
+        ],
+        [
+          3,
+          9644,
+          141
+        ]
+      ],
+      "remaining_hex": "",
+      "status": "candidate"
+    },
+    {
+      "index": 214,
+      "offset": 9010,
+      "tag": 113,
+      "length": 13,
+      "hex": "53746172746572506c61796572",
+      "utf8": "StarterPlayer",
+      "status": "candidate"
+    },
+    {
+      "index": 215,
+      "offset": 143226,
+      "tag": 237,
+      "value": 3003677294,
+      "status": "candidate"
+    },
+    {
+      "index": 216,
+      "offset": 89764,
+      "tag": 170,
+      "length": 13,
+      "hex": "0b0a810205090d1115191d2125",
+      "captures": [
+        [
+          2,
+          9644,
+          2
+        ],
+        [
+          2,
+          9644,
+          32
+        ],
+        [
+          1,
+          9644,
+          1
+        ],
+        [
+          1,
+          9644,
+          2
+        ],
+        [
+          1,
+          9644,
+          3
+        ],
+        [
+          1,
+          9644,
+          4
+        ],
+        [
+          1,
+          9644,
+          5
+        ],
+        [
+          1,
+          9644,
+          6
+        ],
+        [
+          1,
+          9644,
+          7
+        ],
+        [
+          1,
+          9644,
+          8
+        ],
+        [
+          1,
+          9644,
+          9
+        ]
+      ],
+      "remaining_hex": "",
+      "status": "candidate"
+    },
+    {
+      "index": 217,
+      "offset": 142824,
+      "tag": 113,
+      "length": 1,
+      "hex": "62",
+      "utf8": "b",
+      "status": "candidate"
+    },
+    {
+      "index": 218,
+      "offset": 142830,
+      "tag": 237,
+      "value": 4272295585,
+      "status": "candidate"
+    },
+    {
+      "index": 219,
+      "offset": 137445,
+      "tag": 237,
+      "value": 3401520612,
+      "status": "candidate"
+    },
+    {
+      "index": 220,
+      "offset": 236673409,
+      "status": "unresolved_offset"
+    },
+    {
+      "index": 221,
+      "offset": 140224,
+      "tag": 113,
+      "length": 1,
+      "hex": "31",
+      "utf8": "1",
+      "status": "candidate"
+    },
+    {
+      "index": 222,
+      "offset": 19300,
+      "tag": 113,
+      "length": 5,
+      "hex": "636f646573",
+      "utf8": "codes",
+      "status": "candidate"
+    },
+    {
+      "index": 223,
+      "offset": 157479,
+      "tag": 219,
+      "status": "unresolved",
+      "reason": "unsupported constant tag 219 at index 223"
+    },
+    {
+      "index": 224,
+      "offset": 143302,
+      "tag": 70,
+      "value": 535856761,
+      "status": "candidate"
+    },
+    {
+      "index": 225,
+      "offset": 9314,
+      "tag": 70,
+      "value": 1969582157,
+      "status": "candidate"
+    },
+    {
+      "index": 226,
+      "offset": 166916,
+      "tag": 70,
+      "value": 1072693400,
+      "status": "candidate"
+    },
+    {
+      "index": 227,
+      "offset": 144865,
+      "tag": 218,
+      "bits_hex": "007b0118b0f18c3f",
+      "value": 0.014132858021353112,
+      "classification": "finite",
+      "status": "candidate"
+    },
+    {
+      "index": 228,
+      "offset": 144822,
+      "tag": 237,
+      "value": 3359697567,
+      "status": "candidate"
+    },
+    {
+      "index": 229,
+      "offset": 165221,
+      "tag": 218,
+      "bits_hex": "92181d8f3428ea3f",
+      "value": 0.817407874602184,
+      "classification": "finite",
+      "status": "candidate"
+    },
+    {
+      "index": 230,
+      "offset": 143256,
+      "tag": 237,
+      "value": 4174339977,
+      "status": "candidate"
+    },
+    {
+      "index": 231,
+      "offset": 165311,
+      "tag": 170,
+      "length": 5,
+      "hex": "02864f837b",
+      "captures": [
+        [
+          3,
+          9644,
+          211
+        ],
+        [
+          3,
+          9644,
+          126
+        ]
+      ],
+      "remaining_hex": "",
+      "status": "candidate"
+    },
+    {
+      "index": 232,
+      "offset": 157619,
+      "tag": 237,
+      "value": 4112002535,
+      "status": "candidate"
+    },
+    {
+      "index": 233,
+      "offset": 22615,
+      "tag": 113,
+      "length": 26,
+      "hex": "47657454616e67656e744f6e43757276654172634c656e677468",
+      "utf8": "GetTangentOnCurveArcLength",
+      "status": "candidate"
+    },
+    {
+      "index": 234,
+      "offset": 7778,
+      "tag": 167,
+      "value": 0.4000000059604645,
+      "bits_hex": "cdcccc3e",
+      "classification": "finite",
+      "status": "candidate"
+    },
+    {
+      "index": 235,
+      "offset": 8946,
+      "tag": 113,
+      "length": 5,
+      "hex": "64656c6179",
+      "utf8": "delay",
+      "status": "candidate"
+    },
+    {
+      "index": 236,
+      "offset": 120801,
+      "tag": 237,
+      "value": 2468266876,
+      "status": "candidate"
+    },
+    {
+      "index": 237,
+      "offset": 7825,
+      "tag": 70,
+      "value": 918160854,
+      "status": "candidate"
+    },
+    {
+      "index": 238,
+      "offset": 141980,
+      "tag": 218,
+      "bits_hex": "2e0ebc7309c2d33f",
+      "value": 0.3087180738659495,
+      "classification": "finite",
+      "status": "candidate"
+    },
+    {
+      "index": 239,
+      "offset": 120822,
+      "tag": 237,
+      "value": 3346379606,
+      "status": "candidate"
+    },
+    {
+      "index": 240,
+      "offset": 142750,
+      "tag": 113,
+      "length": 16,
+      "hex": "536574436f6e74726f6c506f696e7473",
+      "utf8": "SetControlPoints",
+      "status": "candidate"
+    },
+    {
+      "index": 241,
+      "offset": 143081,
+      "tag": 218,
+      "bits_hex": "1e03ffdca118e33f",
+      "value": 0.5967568699198613,
+      "classification": "finite",
+      "status": "candidate"
+    },
+    {
+      "index": 242,
+      "offset": 90845,
+      "tag": 113,
+      "length": 7,
+      "hex": "72656164753332",
+      "utf8": "readu32",
+      "status": "candidate"
+    },
+    {
+      "index": 243,
+      "offset": 15019,
+      "tag": 108,
+      "status": "unresolved",
+      "reason": "unsupported constant tag 108 at index 243"
+    },
+    {
+      "index": 244,
+      "offset": 142453,
+      "tag": 237,
+      "value": 3541046051,
+      "status": "candidate"
+    },
+    {
+      "index": 245,
+      "offset": 11226,
+      "tag": 242,
+      "value": 114,
+      "status": "candidate"
+    },
+    {
+      "index": 246,
+      "offset": 20722,
+      "tag": 242,
+      "value": 31,
+      "status": "candidate"
+    },
+    {
+      "index": 247,
+      "offset": 9617,
+      "tag": 219,
+      "status": "unresolved",
+      "reason": "unsupported constant tag 219 at index 247"
+    },
+    {
+      "index": 248,
+      "offset": 9426,
+      "tag": 113,
+      "length": 8,
+      "hex": "7772697465663332",
+      "utf8": "writef32",
+      "status": "candidate"
+    },
+    {
+      "index": 249,
+      "offset": 120852,
+      "tag": 70,
+      "value": 1778674772,
+      "status": "candidate"
+    },
+    {
+      "index": 250,
+      "offset": 142414,
+      "tag": 113,
+      "length": 7,
+      "hex": "636f756e74727a",
+      "utf8": "countrz",
+      "status": "candidate"
+    },
+    {
+      "index": 251,
+      "offset": 140192,
+      "tag": 237,
+      "value": 2783394432,
+      "status": "candidate"
+    },
+    {
+      "index": 252,
+      "offset": 95162,
+      "tag": 70,
+      "value": 605265369,
+      "status": "candidate"
+    },
+    {
+      "index": 253,
+      "offset": 132468,
+      "tag": 108,
+      "status": "unresolved",
+      "reason": "unsupported constant tag 108 at index 253"
+    },
+    {
+      "index": 254,
+      "offset": 9719,
+      "tag": 70,
+      "value": 1976411627,
+      "status": "candidate"
+    },
+    {
+      "index": 255,
+      "offset": 89779,
+      "tag": 70,
+      "value": 1214009999,
+      "status": "candidate"
+    },
+    {
+      "index": 256,
+      "offset": 157561,
+      "tag": 237,
+      "value": 2296212523,
+      "status": "candidate"
+    },
+    {
+      "index": 257,
+      "offset": 19175,
+      "tag": 113,
+      "length": 4,
+      "hex": "6d6f7665",
+      "utf8": "move",
+      "status": "candidate"
+    },
+    {
+      "index": 258,
+      "offset": 137416,
+      "tag": 242,
+      "value": 192,
+      "status": "candidate"
+    },
+    {
+      "index": 259,
+      "offset": 145230,
+      "tag": 113,
+      "length": 8,
+      "hex": "7265616462697473",
+      "utf8": "readbits",
+      "status": "candidate"
+    },
+    {
+      "index": 260,
+      "offset": 132474,
+      "tag": 170,
+      "length": 6,
+      "hex": "038117811b27",
+      "captures": [
+        [
+          3,
+          9644,
+          37
+        ],
+        [
+          3,
+          9644,
+          38
+        ],
+        [
+          3,
+          9644,
+          9
+        ]
+      ],
+      "remaining_hex": "",
+      "status": "candidate"
+    },
+    {
+      "index": 261,
+      "offset": 9778,
+      "tag": 113,
+      "length": 13,
+      "hex": "66726f6d41786973416e676c65",
+      "utf8": "fromAxisAngle",
+      "status": "candidate"
+    },
+    {
+      "index": 262,
+      "offset": 137418,
+      "tag": 113,
+      "length": 3,
+      "hex": "4d696e",
+      "utf8": "Min",
+      "status": "candidate"
+    },
+    {
+      "index": 263,
+      "offset": 11228,
+      "tag": 237,
+      "value": 2221253125,
+      "status": "candidate"
+    },
+    {
+      "index": 264,
+      "offset": 19140,
+      "tag": 70,
+      "value": 1082786385,
+      "status": "candidate"
+    },
+    {
+      "index": 265,
+      "offset": 89784,
+      "tag": 237,
+      "value": 2941498464,
+      "status": "candidate"
+    },
+    {
+      "index": 266,
+      "offset": 11319,
+      "tag": 184,
+      "status": "unresolved",
+      "reason": "unsupported constant tag 184 at index 266"
+    },
+    {
+      "index": 267,
+      "offset": 90825,
+      "tag": 70,
+      "value": 992339688,
+      "status": "candidate"
+    },
+    {
+      "index": 268,
+      "offset": 143292,
+      "tag": 113,
+      "length": 8,
+      "hex": "456e756d4974656d",
+      "utf8": "EnumItem",
+      "status": "candidate"
+    },
+    {
+      "index": 269,
+      "offset": 8972,
+      "tag": 113,
+      "length": 25,
+      "hex": "46696e644669727374416e636573746f725768696368497341",
+      "utf8": "FindFirstAncestorWhichIsA",
+      "status": "candidate"
+    },
+    {
+      "index": 270,
+      "offset": 145282,
+      "tag": 237,
+      "value": 2991900866,
+      "status": "candidate"
+    },
+    {
+      "index": 271,
+      "offset": 157439,
+      "tag": 113,
+      "length": 13,
+      "hex": "476574436f6d706f6e656e7473",
+      "utf8": "GetComponents",
+      "status": "candidate"
+    },
+    {
+      "index": 272,
+      "offset": 11269,
+      "tag": 237,
+      "value": 2848441055,
+      "status": "candidate"
+    },
+    {
+      "index": 273,
+      "offset": 9178,
+      "tag": 70,
+      "value": 947696338,
+      "status": "candidate"
+    },
+    {
+      "index": 274,
+      "offset": 95202,
+      "tag": 242,
+      "value": 149,
+      "status": "candidate"
+    },
+    {
+      "index": 275,
+      "offset": 166875,
+      "tag": 113,
+      "length": 4,
+      "hex": "636f7079",
+      "utf8": "copy",
+      "status": "candidate"
+    },
+    {
+      "index": 276,
+      "offset": 11300,
+      "tag": 237,
+      "value": 3640501002,
+      "status": "candidate"
+    },
+    {
+      "index": 277,
+      "offset": 144586,
+      "tag": 113,
+      "length": 4,
+      "hex": "62786f72",
+      "utf8": "bxor",
+      "status": "candidate"
+    },
+    {
+      "index": 278,
+      "offset": 19150,
+      "tag": 113,
+      "length": 9,
+      "hex": "436c6173734e616d65",
+      "utf8": "ClassName",
+      "status": "candidate"
+    },
+    {
+      "index": 279,
+      "offset": 9190,
+      "tag": 113,
+      "length": 13,
+      "hex": "546f4f626a6563745370616365",
+      "utf8": "ToObjectSpace",
+      "status": "candidate"
+    },
+    {
+      "index": 280,
+      "offset": 143368,
+      "tag": 184,
+      "status": "unresolved",
+      "reason": "unsupported constant tag 184 at index 280"
+    },
+    {
+      "index": 281,
+      "offset": 132441,
+      "tag": 70,
+      "value": 559052828,
+      "status": "candidate"
+    },
+    {
+      "index": 282,
+      "offset": 13364,
+      "tag": 237,
+      "value": 3683306879,
+      "status": "candidate"
+    },
+    {
+      "index": 283,
+      "offset": 9808,
+      "tag": 237,
+      "value": 4294967295,
+      "status": "candidate"
+    },
+    {
+      "index": 284,
+      "offset": 115967,
+      "tag": 218,
+      "bits_hex": "1603000000806040",
+      "value": 132.00000000002245,
+      "classification": "finite",
+      "status": "candidate"
+    },
+    {
+      "index": 285,
+      "offset": 236674682,
+      "status": "unresolved_offset"
+    },
+    {
+      "index": 286,
+      "offset": 166807,
+      "tag": 70,
+      "value": 753921244,
+      "status": "candidate"
+    },
+    {
+      "index": 287,
+      "offset": 132608,
+      "tag": 167,
+      "value": 0.1875,
+      "bits_hex": "0000403e",
+      "classification": "finite",
+      "status": "candidate"
+    },
+    {
+      "index": 288,
+      "offset": 8655,
+      "tag": 113,
+      "length": 1,
+      "hex": "74",
+      "utf8": "t",
+      "status": "candidate"
+    },
+    {
+      "index": 289,
+      "offset": 19125,
+      "tag": 70,
+      "value": 1960616251,
+      "status": "candidate"
+    },
+    {
+      "index": 290,
+      "offset": 95177,
+      "tag": 70,
+      "value": 749953376,
+      "status": "candidate"
+    },
+    {
+      "index": 291,
+      "offset": 120898,
+      "tag": 184,
+      "status": "unresolved",
+      "reason": "unsupported constant tag 184 at index 291"
+    },
+    {
+      "index": 292,
+      "offset": 132577,
+      "tag": 113,
+      "length": 4,
+      "hex": "4c656674",
+      "utf8": "Left",
+      "status": "candidate"
+    },
+    {
+      "index": 293,
+      "offset": 145262,
+      "tag": 70,
+      "value": 692060673,
+      "status": "candidate"
+    },
+    {
+      "index": 294,
+      "offset": 143099,
+      "tag": 113,
+      "length": 18,
+      "hex": "566563746f72546f576f726c645370616365",
+      "utf8": "VectorToWorldSpace",
+      "status": "candidate"
+    },
+    {
+      "index": 295,
+      "offset": 31,
+      "tag": 70,
+      "value": 1997531425,
+      "status": "candidate"
+    },
+    {
+      "index": 296,
+      "offset": 137006,
+      "tag": 113,
+      "length": 15,
+      "hex": "6c6173746c696e65646566696e6564",
+      "utf8": "lastlinedefined",
+      "status": "candidate"
+    },
+    {
+      "index": 297,
+      "offset": 201,
+      "tag": 195,
+      "value": -7673,
+      "status": "candidate"
+    },
+    {
+      "index": 298,
+      "offset": 247,
+      "tag": 237,
+      "value": 3504437353,
+      "status": "candidate"
+    },
+    {
+      "index": 299,
+      "offset": 15103,
+      "tag": 237,
+      "value": 2848441053,
+      "status": "candidate"
+    },
+    {
+      "index": 300,
+      "offset": 142926,
+      "tag": 218,
+      "bits_hex": "f85e6aee9f1de0bf",
+      "value": -0.5036163002541505,
+      "classification": "finite",
+      "status": "candidate"
+    },
+    {
+      "index": 301,
+      "offset": 13422,
+      "tag": 70,
+      "value": 981011520,
+      "status": "candidate"
+    },
+    {
+      "index": 302,
+      "offset": 137478,
+      "tag": 244,
+      "value": 667,
+      "status": "candidate"
+    },
+    {
+      "index": 303,
+      "offset": 145291,
+      "tag": 70,
+      "value": 1459330911,
+      "status": "candidate"
+    },
+    {
+      "index": 304,
+      "offset": 142818,
+      "tag": 113,
+      "length": 1,
+      "hex": "30",
+      "utf8": "0",
+      "status": "candidate"
+    },
+    {
+      "index": 305,
+      "offset": 144757,
+      "tag": 242,
+      "value": 10,
+      "status": "candidate"
+    },
+    {
+      "index": 306,
+      "offset": 95153,
+      "tag": 218,
+      "bits_hex": "40fc8c30f02de13f",
+      "value": 0.5368576954132394,
+      "classification": "finite",
+      "status": "candidate"
+    },
+    {
+      "index": 307,
+      "offset": 666,
+      "tag": 70,
+      "value": 2005484244,
+      "status": "candidate"
+    },
+    {
+      "index": 308,
+      "offset": 12215,
+      "tag": 237,
+      "value": 4021298741,
+      "status": "candidate"
+    },
+    {
+      "index": 309,
+      "offset": 142739,
+      "tag": 170,
+      "length": 3,
+      "hex": "02334f",
+      "captures": [
+        [
+          3,
+          9644,
+          12
+        ],
+        [
+          3,
+          9644,
+          19
+        ]
+      ],
+      "remaining_hex": "",
+      "status": "candidate"
+    },
+    {
+      "index": 310,
+      "offset": 15060,
+      "tag": 167,
+      "value": 17592186044416.0,
+      "bits_hex": "00008055",
+      "classification": "finite",
+      "status": "candidate"
+    },
+    {
+      "index": 311,
+      "offset": 150,
+      "tag": 113,
+      "length": 20,
+      "hex": "3a2825642b295b0a0d253a5d5b5e256325435d2d",
+      "utf8": ":(%d+)[\n\r%:][^%c%C]-",
+      "status": "candidate"
+    },
+    {
+      "index": 312,
+      "offset": 143041,
+      "tag": 218,
+      "bits_hex": "e085920c0dfee93f",
+      "value": 0.8122620816758932,
+      "classification": "finite",
+      "status": "candidate"
+    },
+    {
+      "index": 313,
+      "offset": 191,
+      "tag": 237,
+      "value": 3798797452,
+      "status": "candidate"
+    },
+    {
+      "index": 314,
+      "offset": 9742,
+      "tag": 218,
+      "bits_hex": "d0cb70abf7fe953f",
+      "value": 0.02148043617144052,
+      "classification": "finite",
+      "status": "candidate"
+    },
+    {
+      "index": 315,
+      "offset": 157370,
+      "tag": 237,
+      "value": 3146804485,
+      "status": "candidate"
+    },
+    {
+      "index": 316,
+      "offset": 165255,
+      "tag": 113,
+      "length": 6,
+      "hex": "726561646938",
+      "utf8": "readi8",
+      "status": "candidate"
+    },
+    {
+      "index": 317,
+      "offset": 166881,
+      "tag": 237,
+      "value": 4032512554,
+      "status": "candidate"
+    },
+    {
+      "index": 318,
+      "offset": 90773,
+      "tag": 70,
+      "value": 2085225426,
+      "status": "candidate"
+    },
+    {
+      "index": 319,
+      "offset": 676,
+      "tag": 237,
+      "value": 3745009995,
+      "status": "candidate"
+    },
+    {
+      "index": 320,
+      "offset": 20691,
+      "tag": 113,
+      "length": 10,
+      "hex": "66726f6d737472696e67",
+      "utf8": "fromstring",
+      "status": "candidate"
+    },
+    {
+      "index": 321,
+      "offset": 8929,
+      "tag": 218,
+      "bits_hex": "acef898b6f88efbf",
+      "value": -0.9854047513358544,
+      "classification": "finite",
+      "status": "candidate"
+    },
+    {
+      "index": 322,
+      "offset": 143065,
+      "tag": 70,
+      "value": 629861557,
+      "status": "candidate"
+    },
+    {
+      "index": 323,
+      "offset": 13326,
+      "tag": 70,
+      "value": 905037055,
+      "status": "candidate"
+    },
+    {
+      "index": 324,
+      "offset": 172,
+      "tag": 113,
+      "length": 17,
+      "hex": "5b253a5d28256425642a295b253a0d0a5d",
+      "utf8": "[%:](%d%d*)[%:\r\n]",
+      "status": "candidate"
+    },
+    {
+      "index": 325,
+      "offset": 144917,
+      "tag": 70,
+      "value": 1732514040,
+      "status": "candidate"
+    },
+    {
+      "index": 326,
+      "offset": 144577,
+      "tag": 218,
+      "bits_hex": "f4f75d950cc0ef3f",
+      "value": 0.992193500263737,
+      "classification": "finite",
+      "status": "candidate"
+    },
+    {
+      "index": 327,
+      "offset": 9351,
+      "tag": 70,
+      "value": 1455971560,
+      "status": "candidate"
+    },
+    {
+      "index": 328,
+      "offset": 95197,
+      "tag": 237,
+      "value": 2564754869,
+      "status": "candidate"
+    },
+    {
+      "index": 329,
+      "offset": 9319,
+      "tag": 113,
+      "length": 10,
+      "hex": "4c6f6f6b566563746f72",
+      "utf8": "LookVector",
+      "status": "candidate"
+    },
+    {
+      "index": 330,
+      "offset": 19161,
+      "tag": 70,
+      "value": 1724900588,
+      "status": "candidate"
+    },
+    {
+      "index": 331,
+      "offset": 15025,
+      "tag": 113,
+      "length": 1,
+      "hex": "6f",
+      "utf8": "o",
+      "status": "candidate"
+    },
+    {
+      "index": 332,
+      "offset": 145193,
+      "tag": 170,
+      "length": 9,
+      "hex": "048263836f833f8377",
+      "captures": [
+        [
+          3,
+          9644,
+          88
+        ],
+        [
+          3,
+          9644,
+          123
+        ],
+        [
+          3,
+          9644,
+          111
+        ],
+        [
+          3,
+          9644,
+          125
+        ]
+      ],
+      "remaining_hex": "",
+      "status": "candidate"
+    },
+    {
+      "index": 333,
+      "offset": 9553,
+      "tag": 113,
+      "length": 8,
+      "hex": "726177657175616c",
+      "utf8": "rawequal",
+      "status": "candidate"
+    },
+    {
+      "index": 334,
+      "offset": 90204,
+      "tag": 237,
+      "value": 2760009020,
+      "status": "candidate"
+    },
+    {
+      "index": 335,
+      "offset": 142492,
+      "tag": 237,
+      "value": 2928626232,
+      "status": "candidate"
+    },
+    {
+      "index": 336,
+      "offset": 236593064,
+      "status": "unresolved_offset"
+    },
+    {
+      "index": 337,
+      "offset": 166677,
+      "tag": 70,
+      "value": 1501696252,
+      "status": "candidate"
+    },
+    {
+      "index": 338,
+      "offset": 19170,
+      "tag": 70,
+      "value": 2050084086,
+      "status": "candidate"
+    },
+    {
+      "index": 339,
+      "offset": 9144,
+      "tag": 169,
+      "value": -35,
+      "status": "candidate"
+    },
+    {
+      "index": 340,
+      "offset": 142423,
+      "tag": 70,
+      "value": 1053383486,
+      "status": "candidate"
+    },
+    {
+      "index": 341,
+      "offset": 9773,
+      "tag": 237,
+      "value": 2721407014,
+      "status": "candidate"
+    },
+    {
+      "index": 342,
+      "offset": 19247,
+      "tag": 237,
+      "value": 3224318365,
+      "status": "candidate"
+    },
+    {
+      "index": 343,
+      "offset": 844,
+      "tag": 70,
+      "value": 1032992742,
+      "status": "candidate"
+    },
+    {
+      "index": 344,
+      "offset": 157531,
+      "tag": 70,
+      "value": 536871538,
+      "status": "candidate"
+    },
+    {
+      "index": 345,
+      "offset": 8938,
+      "tag": 244,
+      "value": 656,
+      "status": "candidate"
+    },
+    {
+      "index": 346,
+      "offset": 137045,
+      "tag": 218,
+      "bits_hex": "d8b7d732d31bd9bf",
+      "value": -0.3923233028898472,
+      "classification": "finite",
+      "status": "candidate"
+    },
+    {
+      "index": 347,
+      "offset": 90196,
+      "tag": 113,
+      "length": 6,
+      "hex": "727368696674",
+      "utf8": "rshift",
+      "status": "candidate"
+    },
+    {
+      "index": 348,
+      "offset": 22365,
+      "tag": 70,
+      "value": -231758409,
+      "status": "candidate"
+    },
+    {
+      "index": 349,
+      "offset": 165318,
+      "tag": 113,
+      "length": 16,
+      "hex": "6964656e746966796578656375746f72",
+      "utf8": "identifyexecutor",
+      "status": "candidate"
+    },
+    {
+      "index": 350,
+      "offset": 143050,
+      "tag": 237,
+      "value": 4294967264,
+      "status": "candidate"
+    },
+    {
+      "index": 351,
+      "offset": 95182,
+      "tag": 170,
+      "length": 13,
+      "hex": "0684278347870b836f833f8377",
+      "captures": [
+        [
+          3,
+          9644,
+          137
+        ],
+        [
+          3,
+          9644,
+          113
+        ],
+        [
+          3,
+          9644,
+          226
+        ],
+        [
+          3,
+          9644,
+          123
+        ],
+        [
+          3,
+          9644,
+          111
+        ],
+        [
+          3,
+          9644,
+          125
+        ]
+      ],
+      "remaining_hex": "",
+      "status": "candidate"
+    },
+    {
+      "index": 352,
+      "offset": 19181,
+      "tag": 192,
+      "status": "unresolved",
+      "reason": "unsupported constant tag 192 at index 352"
+    },
+    {
+      "index": 353,
+      "offset": 9631,
+      "tag": 113,
+      "length": 81,
+      "hex": "e1848be185b0e186afe1848fe185a2e186b7e18492e185afe186aae18480e185b0e186bce18482e185aee186b5e1848ee185abe186b8e1848ce185a6e186ace1848ae185b3e186ade18487e185aee186af",
+      "utf8": "\u110b\u1170\u11af\u110f\u1162\u11b7\u1112\u116f\u11aa\u1100\u1170\u11bc\u1102\u116e\u11b5\u110e\u116b\u11b8\u110c\u1166\u11ac\u110a\u1173\u11ad\u1107\u116e\u11af",
+      "status": "candidate"
+    },
+    {
+      "index": 354,
+      "offset": 9416,
+      "tag": 70,
+      "value": 1377849459,
+      "status": "candidate"
+    },
+    {
+      "index": 355,
+      "offset": 144601,
+      "tag": 113,
+      "length": 15,
+      "hex": "66726f6d45756c6572416e676c6573",
+      "utf8": "fromEulerAngles",
+      "status": "candidate"
+    },
+    {
+      "index": 356,
+      "offset": 15065,
+      "tag": 237,
+      "value": 3683306881,
+      "status": "candidate"
+    },
+    {
+      "index": 357,
+      "offset": 9714,
+      "tag": 237,
+      "value": 4017666803,
+      "status": "candidate"
+    },
+    {
+      "index": 358,
+      "offset": 9025,
+      "tag": 70,
+      "value": 619844954,
+      "status": "candidate"
+    },
+    {
+      "index": 359,
+      "offset": 142407,
+      "tag": 242,
+      "value": 20,
+      "status": "candidate"
+    },
+    {
+      "index": 360,
+      "offset": 9297,
+      "tag": 218,
+      "bits_hex": "789a270d0c10bd3f",
+      "value": 0.11352610894355475,
+      "classification": "finite",
+      "status": "candidate"
+    },
+    {
+      "index": 361,
+      "offset": 137450,
+      "tag": 113,
+      "length": 3,
+      "hex": "626f72",
+      "utf8": "bor",
+      "status": "candidate"
+    },
+    {
+      "index": 362,
+      "offset": 144637,
+      "tag": 219,
+      "status": "unresolved",
+      "reason": "unsupported constant tag 219 at index 362"
+    },
+    {
+      "index": 363,
+      "offset": 142409,
+      "tag": 70,
+      "value": 623191333,
+      "status": "candidate"
+    },
+    {
+      "index": 364,
+      "offset": 9544,
+      "tag": 113,
+      "length": 7,
+      "hex": "73657466656e76",
+      "utf8": "setfenv",
+      "status": "candidate"
+    },
+    {
+      "index": 365,
+      "offset": 143185,
+      "tag": 70,
+      "value": 1094883687,
+      "status": "candidate"
+    },
+    {
+      "index": 366,
+      "offset": 140197,
+      "tag": 113,
+      "length": 1,
+      "hex": "79",
+      "utf8": "y",
+      "status": "candidate"
+    },
+    {
+      "index": 367,
+      "offset": 142622,
+      "tag": 70,
+      "value": -446415165,
+      "status": "candidate"
+    },
+    {
+      "index": 368,
+      "offset": 140079,
+      "tag": 237,
+      "value": 3581668982,
+      "status": "candidate"
+    },
+    {
+      "index": 369,
+      "offset": 20570,
+      "tag": 237,
+      "value": 3804743677,
+      "status": "candidate"
+    },
+    {
+      "index": 370,
+      "offset": 157597,
+      "tag": 237,
+      "value": 2743571049,
+      "status": "candidate"
+    },
+    {
+      "index": 371,
+      "offset": 236583706,
+      "status": "unresolved_offset"
+    },
+    {
+      "index": 372,
+      "offset": 9456,
+      "tag": 237,
+      "value": 2147483648,
+      "status": "candidate"
+    },
+    {
+      "index": 373,
+      "offset": 16677,
+      "tag": 70,
+      "value": 1459256075,
+      "status": "candidate"
+    },
+    {
+      "index": 374,
+      "offset": 166762,
+      "tag": 70,
+      "value": 1534958276,
+      "status": "candidate"
+    },
+    {
+      "index": 375,
+      "offset": 171126,
+      "tag": 237,
+      "value": 2454580231,
+      "status": "candidate"
+    },
+    {
+      "index": 376,
+      "offset": 157608,
+      "tag": 113,
+      "length": 9,
+      "hex": "576f726b7370616365",
+      "utf8": "Workspace",
+      "status": "candidate"
+    },
+    {
+      "index": 377,
+      "offset": 12232,
+      "tag": 70,
+      "value": 2047924399,
+      "status": "candidate"
+    },
+    {
+      "index": 378,
+      "offset": 236661841,
+      "status": "unresolved_offset"
+    },
+    {
+      "index": 379,
+      "offset": 12782,
+      "tag": 237,
+      "value": 2838995737,
+      "status": "candidate"
+    },
+    {
+      "index": 380,
+      "offset": 9152,
+      "tag": 113,
+      "length": 12,
+      "hex": "6e66636e6f726d616c697a65",
+      "utf8": "nfcnormalize",
+      "status": "candidate"
+    },
+    {
+      "index": 381,
+      "offset": 142827,
+      "tag": 113,
+      "length": 1,
+      "hex": "33",
+      "utf8": "3",
+      "status": "candidate"
+    },
+    {
+      "index": 382,
+      "offset": 22610,
+      "tag": 70,
+      "value": 578369205,
+      "status": "candidate"
+    },
+    {
+      "index": 383,
+      "offset": 19145,
+      "tag": 237,
+      "value": 4005963137,
+      "status": "candidate"
+    },
+    {
+      "index": 384,
+      "offset": 166854,
+      "tag": 113,
+      "length": 16,
+      "hex": "546f45756c6572416e676c657358595a",
+      "utf8": "ToEulerAnglesXYZ",
+      "status": "candidate"
+    },
+    {
+      "index": 385,
+      "offset": 90864,
+      "tag": 237,
+      "value": 2987181022,
+      "status": "candidate"
+    },
+    {
+      "index": 386,
+      "offset": 26,
+      "tag": 70,
+      "value": 2088599518,
+      "status": "candidate"
+    },
+    {
+      "index": 387,
+      "offset": 90879,
+      "tag": 237,
+      "value": 3632918329,
+      "status": "candidate"
+    },
+    {
+      "index": 388,
+      "offset": 137490,
+      "tag": 113,
+      "length": 30,
+      "hex": "3a5b5e256c254c5d3f285b25645d2b295b5e257325535d2d5b0a253a0d5d",
+      "utf8": ":[^%l%L]?([%d]+)[^%s%S]-[\n%:\r]",
+      "status": "candidate"
+    },
+    {
+      "index": 389,
+      "offset": 166294,
+      "tag": 237,
+      "value": 2298382286,
+      "status": "candidate"
+    },
+    {
+      "index": 390,
+      "offset": 145245,
+      "tag": 195,
+      "value": -5457,
+      "status": "candidate"
+    },
+    {
+      "index": 391,
+      "offset": 236540016,
+      "status": "unresolved_offset"
+    },
+    {
+      "index": 392,
+      "offset": 9568,
+      "tag": 237,
+      "value": 3343016235,
+      "status": "candidate"
+    },
+    {
+      "index": 393,
+      "offset": 9583,
+      "tag": 218,
+      "bits_hex": "048130fbdd04e53f",
+      "value": 0.6568441301388082,
+      "classification": "finite",
+      "status": "candidate"
+    },
+    {
+      "index": 394,
+      "offset": 13341,
+      "tag": 70,
+      "value": 610999280,
+      "status": "candidate"
+    },
+    {
+      "index": 395,
+      "offset": 7806,
+      "tag": 113,
+      "length": 12,
+      "hex": "416e676c654265747765656e",
+      "utf8": "AngleBetween",
+      "status": "candidate"
+    },
+    {
+      "index": 396,
+      "offset": 236582434,
+      "status": "unresolved_offset"
+    },
+    {
+      "index": 397,
+      "offset": 165293,
+      "tag": 113,
+      "length": 11,
+      "hex": "63757272656e746c696e65",
+      "utf8": "currentline",
+      "status": "candidate"
+    },
+    {
+      "index": 398,
+      "offset": 19233,
+      "tag": 113,
+      "length": 1,
+      "hex": "36",
+      "utf8": "6",
+      "status": "candidate"
+    },
+    {
+      "index": 399,
+      "offset": 137522,
+      "tag": 237,
+      "value": 4099214503,
+      "status": "candidate"
+    },
+    {
+      "index": 400,
+      "offset": 13405,
+      "tag": 237,
+      "value": 3839643612,
+      "status": "candidate"
+    },
+    {
+      "index": 401,
+      "offset": 8927,
+      "tag": 242,
+      "value": 110,
+      "status": "candidate"
+    },
+    {
+      "index": 402,
+      "offset": 19312,
+      "tag": 170,
+      "length": 5,
+      "hex": "02841b841f",
+      "captures": [
+        [
+          3,
+          9644,
+          134
+        ],
+        [
+          3,
+          9644,
+          135
+        ]
+      ],
+      "remaining_hex": "",
+      "status": "candidate"
+    },
+    {
+      "index": 403,
+      "offset": 142708,
+      "tag": 237,
+      "value": 3837935104,
+      "status": "candidate"
+    },
+    {
+      "index": 404,
+      "offset": 137363,
+      "tag": 237,
+      "value": 3604859408,
+      "status": "candidate"
+    },
+    {
+      "index": 405,
+      "offset": 143070,
+      "tag": 70,
+      "value": 688067949,
+      "status": "candidate"
+    },
+    {
+      "index": 406,
+      "offset": 9239,
+      "tag": 242,
+      "value": 16,
+      "status": "candidate"
+    },
+    {
+      "index": 407,
+      "offset": 137481,
+      "tag": 242,
+      "value": 2,
+      "status": "candidate"
+    },
+    {
+      "index": 408,
+      "offset": 15009,
+      "tag": 70,
+      "value": 193071282,
+      "status": "candidate"
+    },
+    {
+      "index": 409,
+      "offset": 140119,
+      "tag": 218,
+      "bits_hex": "bc77000fe1e7e03f",
+      "value": 0.528305558491176,
+      "classification": "finite",
+      "status": "candidate"
+    },
+    {
+      "index": 410,
+      "offset": 143033,
+      "tag": 113,
+      "length": 6,
+      "hex": "73656c656374",
+      "utf8": "select",
+      "status": "candidate"
+    },
+    {
+      "index": 411,
+      "offset": 142501,
+      "tag": 113,
+      "length": 9,
+      "hex": "74726163656261636b",
+      "utf8": "traceback",
+      "status": "candidate"
+    },
+    {
+      "index": 412,
+      "offset": 157375,
+      "tag": 237,
+      "value": 2712567690,
+      "status": "candidate"
+    },
+    {
+      "index": 413,
+      "offset": 9368,
+      "tag": 237,
+      "value": 2190114944,
+      "status": "candidate"
+    },
+    {
+      "index": 414,
+      "offset": 95167,
+      "tag": 113,
+      "length": 3,
+      "hex": "546f70",
+      "utf8": "Top",
+      "status": "candidate"
+    },
+    {
+      "index": 415,
+      "offset": 15051,
+      "tag": 218,
+      "bits_hex": "ce4d96f0de4eed3f",
+      "value": 0.9158777903525619,
+      "classification": "finite",
+      "status": "candidate"
+    },
+    {
+      "index": 416,
+      "offset": 15072,
+      "tag": 237,
+      "value": 4266315715,
+      "status": "candidate"
+    },
+    {
+      "index": 417,
+      "offset": 140219,
+      "tag": 237,
+      "value": 3441831530,
+      "status": "candidate"
+    },
+    {
+      "index": 418,
+      "offset": 16696,
+      "tag": 237,
+      "value": 3971870089,
+      "status": "candidate"
+    },
+    {
+      "index": 419,
+      "offset": 16765,
+      "tag": 113,
+      "length": 2311,
+      "hex": "0a09090909202e4025282f2a2c2e2e2e2e2e2e2e2020202020202e2e2e2c2c2a2f2823252640402e0a09090920282a2020202c2f28232525262640404040262528282f2f2f2f28282823232523232328282f2a2a2c2c2e20202020202c2f2f28262e0a09092020202f2a202e254040404040404040252c20202e28264040402626262626264040404040402623282a2c2e2e2e2e2e2e2e2e2a25404040282e20202c232e0a0909202a2f202e26404040404040402a202028252c2020202a28262640404040402625282a2c2e202020202020202020202020202e2c2a282325282a4040262a20202a2c0a0909232c202f4040404040402a202a2628202c26262f2e2c2f23252626404040262826404040404040404040404040232a2c2e2e2e2e2e2c2f26404040404040404028202e250a092020202320202340404040402a2f4025202e23252e2f282c2e2c2f2a2c2f2f2a2c2e2c2f282a40404040404040404040404025404040404040404040232e23404040404040262e20250a0920202f202026404040404040404028254023202a26262a2640404040232f26404040402f25252e2c2540404040404040252f404026282c20202c2c2c2e2e2e20202a2540404023202a0a092320202e2640404040404040404040402c2828254040404040232e202020202c264040234040262a202e264040404040262c2e23404040402f264040252840404026282f2c28262c202f2c0a20282f20202028402626262526404040262f2c202c402328404040402c20202020202020202340402f2c264026202f40404040402c25232540404040402820202020202a4040404040262c25252e202e0a2f2020232f2c234040402623282f2f234040402f202540404026404040282e202020202c264040282e2a2f2a20202540402a20202025404040404040252020202020202028404026282a2e2e2e25262e0a202f2f2f4040262c202028264040232c2020202f402f202c2a26404040402326404025232528282540262a202f404040404040262e20234040402326404040262525404040404040262c2f282a402f230a25252e264023202e2640404023202f404040402526404040262f2e2020202c2f28282f2a2c20202e2f26404040404040404040402c2a26282e2f254040232a264040402823282e2e2e2e2c26232a402f0a40252e2626202e26404040262a202020202f2640404040404040404040404040404040264040232f282540404040404040404040262c2020284040404040404040404040402f2c4040404040232e262a0a26262c2525202e262a202020202f404040282e20202c284040404040262f282f2f2f2f2328202f264040404040404040404040404040402820202c264040404040404040262c20284040262a2f40282f0a2e252a234028202f4040404028202a4040404040402f20202020202a2540404040404040262e2c4026202c232c202e2640404040404023202e232a25262f2c23404040402a2020202a4040262f2a262a0a202e262f2e23404040404040402c2020202a264040252e2c26404026282c202020202c2825402526404040404040404040282e2a2c20202f404040404040404040262c20202020202025404040402e2e0a402a202e25404040404040404028202020202020202e20202028404040404040404028202020202020202e2a28252640404040404040404040404026282c20202e2f2e2a40252020202f404025202e2f0a2020402a202e26404040404040262e202020202020202020202020202e2f264040402a2e2640404040404040262c202c2a2a2c2e202020202e2c2a2826282e254040232025402a20202c404025202c230a09262c202f4040404040402a20202020202020202020202020202020202020202e2340404040404040402a2e254040404040282c40404040404026202c25282e2020202020202e264025202c230a0920202f202a40404040402320202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202540262e2c230a0920202828202e26404040402a202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202340262e2c230a092020202e262e202c264040402c2020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202840262e2c230a09092020232e202e2540402a202f40402f2020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202f40262e2c280a0909092e2f20202340252e202540262c2c232c202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202f40402c2e2f0a09090920202a2820202340252e202e20284040404040252f2c202020202020202020202020202020202020202020202020202020202020202020202020202020202f40402c2e2a0a090909092f2f20202540262c202a404040404040404028202840252f2e2020202020202020202020202020202020202020202020202020202020202020202340402c20280a090909092020232a202e264040232e202840404040262e2a4040404040404040252e202a2f2e2020202020202020202020202020202020202a2e2e252a2e2640402c202f0a0909090909402a202e25404040252c202c2f202e404040404040404040402c2e25404040404025202e264040402a202340262e2e26402a2c2a20254040262e202a0a09090909092020202f20202a2640404040252c2020202a282640404040262e202340404040402a202340404025202840402a202c2e2020202f404040402a20280a0909090909092040232e202e2340404040404026282c2e202020202020202020202020202020202020202020202e2c2a2825264040404040262e2e280a090909090909092026282e2020202e2f2540404040404040404040404040404040404040404040404040404040404040404040282e2028280a090909090909090920202c232f2a2e202020202020202e2e2c2c2c2c2c2c2c2c2e2e2e2e202020202020202020202c2f230a0a",
+      "utf8": "\n\t\t\t\t .@%(/*,.......      ...,,*/(#%&@@.\n\t\t\t (*   ,/(#%%&&@@@@&%((////(((##%###((/**,,.     ,//(&.\n\t\t   /* .%@@@@@@@@%,  .(&@@@&&&&&&@@@@@@&#(*,........*%@@@(.  ,#.\n\t\t */ .&@@@@@@@*  (%,   *(&&@@@@@&%(*,.             .,*(#%(*@@&*  *,\n\t\t#, /@@@@@@* *&( ,&&/.,/#%&&@@@&(&@@@@@@@@@@@@#*,.....,/&@@@@@@@@( .%\n\t   #  #@@@@@*/@% .#%./(,.,/*,//*,.,/(*@@@@@@@@@@@@%@@@@@@@@@#.#@@@@@@&. %\n\t  /  &@@@@@@@@(%@# *&&*&@@@@#/&@@@@/%%.,%@@@@@@@%/@@&(,  ,,,...  *%@@@# *\n\t#  .&@@@@@@@@@@@,((%@@@@@#.    ,&@@#@@&* .&@@@@@&,.#@@@@/&@@%(@@@&(/,(&, /,\n (/   (@&&&%&@@@&/, ,@#(@@@@,        #@@/,&@& /@@@@@,%#%@@@@@(     *@@@@@&,%%. .\n/  #/,#@@@&#(//#@@@/ %@@@&@@@(.    ,&@@(.*/*  %@@*   %@@@@@@%       (@@&(*...%&.\n ///@@&,  (&@@#,   /@/ ,*&@@@@#&@@%#%((%@&* /@@@@@@&. #@@@#&@@@&%%@@@@@@&,/(*@/#\n%%.&@# .&@@@# /@@@@%&@@@&/.   ,/((/*,  ./&@@@@@@@@@@,*&(./%@@#*&@@@(#(....,&#*@/\n@%.&& .&@@@&*    /&@@@@@@@@@@@@@@@@&@@#/(%@@@@@@@@@@&,  (@@@@@@@@@@@@/,@@@@@#.&*\n&&,%% .&*    /@@@(.  ,(@@@@@&/(////#( /&@@@@@@@@@@@@@@@(  ,&@@@@@@@@&, (@@&*/@(/\n.%*#@( /@@@@( *@@@@@@/     *%@@@@@@@&.,@& ,#, .&@@@@@@# .#*%&/,#@@@@*   *@@&/*&*\n .&/.#@@@@@@@,   *&@@%.,&@@&(,    ,(%@%&@@@@@@@@@(.*,  /@@@@@@@@@&,      %@@@@..\n@* .%@@@@@@@@(       .   (@@@@@@@@(       .*(%&@@@@@@@@@@@@&(,  ./.*@%   /@@% ./\n  @* .&@@@@@@&.             ./&@@@*.&@@@@@@@&, ,**,.    .,*(&(.%@@# %@*  ,@@% ,#\n\t&, /@@@@@@*                    .#@@@@@@@@*.%@@@@@(,@@@@@@& ,%(.      .&@% ,#\n\t  / *@@@@@#                                                           %@&.,#\n\t  (( .&@@@@*                                                          #@&.,#\n\t   .&. ,&@@@,                                                         (@&.,#\n\t\t  #. .%@@* /@@/                                                   /@&.,(\n\t\t\t./  #@%. %@&,,#,                                              /@@,./\n\t\t\t  *(  #@%. . (@@@@@%/,                                        /@@,.*\n\t\t\t\t//  %@&, *@@@@@@@@( (@%/.                                 #@@, (\n\t\t\t\t  #* .&@@#. (@@@@&.*@@@@@@@@%. */.                  *..%*.&@@, /\n\t\t\t\t\t@* .%@@@%, ,/ .@@@@@@@@@@,.%@@@@@% .&@@@* #@&..&@*,* %@@&. *\n\t\t\t\t\t   /  *&@@@@%,   *(&@@@@&. #@@@@@* #@@@% (@@* ,.   /@@@@* (\n\t\t\t\t\t\t @#. .#@@@@@@&(,.                      .,*(%&@@@@@&..(\n\t\t\t\t\t\t\t &(.   ./%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@(. ((\n\t\t\t\t\t\t\t\t  ,#/*.       ..,,,,,,,,....          ,/#\n\n",
+      "status": "candidate"
+    },
+    {
+      "index": 420,
+      "offset": 19222,
+      "tag": 170,
+      "length": 4,
+      "hex": "03532b57",
+      "captures": [
+        [
+          3,
+          9644,
+          20
+        ],
+        [
+          3,
+          9644,
+          10
+        ],
+        [
+          3,
+          9644,
+          21
+        ]
+      ],
+      "remaining_hex": "",
+      "status": "candidate"
+    },
+    {
+      "index": 421,
+      "offset": 9292,
+      "tag": 70,
+      "value": 1652819944,
+      "status": "candidate"
+    },
+    {
+      "index": 422,
+      "offset": 165717,
+      "tag": 237,
+      "value": 2594408572,
+      "status": "candidate"
+    },
+    {
+      "index": 423,
+      "offset": 143266,
+      "tag": 113,
+      "length": 6,
+      "hex": "747970656f66",
+      "utf8": "typeof",
+      "status": "candidate"
+    },
+    {
+      "index": 424,
+      "offset": 166299,
+      "tag": 169,
+      "value": -2,
+      "status": "candidate"
+    },
+    {
+      "index": 425,
+      "offset": 144883,
+      "tag": 70,
+      "value": 1354125299,
+      "status": "candidate"
+    },
+    {
+      "index": 426,
+      "offset": 137376,
+      "tag": 170,
+      "length": 11,
+      "hex": "05837b836f833f8377823f",
+      "captures": [
+        [
+          3,
+          9644,
+          126
+        ],
+        [
+          3,
+          9644,
+          123
+        ],
+        [
+          3,
+          9644,
+          111
+        ],
+        [
+          3,
+          9644,
+          125
+        ],
+        [
+          3,
+          9644,
+          79
+        ]
+      ],
+      "remaining_hex": "",
+      "status": "candidate"
+    },
+    {
+      "index": 427,
+      "offset": 20681,
+      "tag": 70,
+      "value": 1854922870,
+      "status": "candidate"
+    },
+    {
+      "index": 428,
+      "offset": 9406,
+      "tag": 113,
+      "length": 5,
+      "hex": "56616c7565",
+      "utf8": "Value",
+      "status": "candidate"
+    },
+    {
+      "index": 429,
+      "offset": 7853,
+      "tag": 70,
+      "value": 1797285236,
+      "status": "candidate"
+    },
+    {
+      "index": 430,
+      "offset": 11193,
+      "tag": 203,
+      "kind": "Vector3",
+      "components": [
+        0.3298666179180145,
+        0.9137893915176392,
+        0.3222835659980774
+      ],
+      "bits_hex": [
+        "47e4a83e",
+        "1aee693f",
+        "5a02a53e"
+      ],
+      "classifications": [
+        "finite",
+        "finite",
+        "finite"
+      ],
+      "status": "candidate"
+    },
+    {
+      "index": 431,
+      "offset": 132421,
+      "tag": 237,
+      "value": 3818065481,
+      "status": "candidate"
+    },
+    {
+      "index": 432,
+      "offset": 142835,
+      "tag": 28,
+      "kind": "Vector2",
+      "components": [
+        0.5949999690055847,
+        0.7933715581893921
+      ],
+      "bits_hex": [
+        "eb51183f",
+        "661a4b3f"
+      ],
+      "classifications": [
+        "finite",
+        "finite"
+      ],
+      "status": "candidate"
+    },
+    {
+      "index": 433,
+      "offset": 207,
+      "tag": 113,
+      "length": 29,
+      "hex": "3a5b5e256325435d2d28256425642a295b3a0a0d5d5b5e257525555d2d",
+      "utf8": ":[^%c%C]-(%d%d*)[:\n\r][^%u%U]-",
+      "status": "candidate"
+    },
+    {
+      "index": 434,
+      "offset": 143160,
+      "tag": 170,
+      "length": 5,
+      "hex": "028413866b",
+      "captures": [
+        [
+          3,
+          9644,
+          132
+        ],
+        [
+          3,
+          9644,
+          218
+        ]
+      ],
+      "remaining_hex": "",
+      "status": "candidate"
+    },
+    {
+      "index": 435,
+      "offset": 236666353,
+      "status": "unresolved_offset"
+    },
+    {
+      "index": 436,
+      "offset": 140227,
+      "tag": 184,
+      "status": "unresolved",
+      "reason": "unsupported constant tag 184 at index 436"
+    },
+    {
+      "index": 437,
+      "offset": 9338,
+      "tag": 237,
+      "value": 3776599939,
+      "status": "candidate"
+    },
+    {
+      "index": 438,
+      "offset": 157566,
+      "tag": 170,
+      "length": 7,
+      "hex": "03836f833f8377",
+      "captures": [
+        [
+          3,
+          9644,
+          123
+        ],
+        [
+          3,
+          9644,
+          111
+        ],
+        [
+          3,
+          9644,
+          125
+        ]
+      ],
+      "remaining_hex": "",
+      "status": "candidate"
+    },
+    {
+      "index": 439,
+      "offset": 166805,
+      "tag": 242,
+      "value": 23,
+      "status": "candidate"
+    },
+    {
+      "index": 440,
+      "offset": 143133,
+      "tag": 237,
+      "value": 2801775359,
+      "status": "candidate"
+    },
+    {
+      "index": 441,
+      "offset": 656,
+      "tag": 113,
+      "length": 8,
+      "hex": "746f6e756d626572",
+      "utf8": "tonumber",
+      "status": "candidate"
+    },
+    {
+      "index": 442,
+      "offset": 157502,
+      "tag": 113,
+      "length": 6,
+      "hex": "666f726d6174",
+      "utf8": "format",
+      "status": "candidate"
+    },
+    {
+      "index": 443,
+      "offset": 143172,
+      "tag": 70,
+      "value": 2104852352,
+      "status": "candidate"
+    },
+    {
+      "index": 444,
+      "offset": 165427,
+      "tag": 237,
+      "value": 4042982364,
+      "status": "candidate"
+    },
+    {
+      "index": 445,
+      "offset": 142964,
+      "tag": 170,
+      "length": 13,
+      "hex": "068373870f823f836f833f8377",
+      "captures": [
+        [
+          3,
+          9644,
+          124
+        ],
+        [
+          3,
+          9644,
+          227
+        ],
+        [
+          3,
+          9644,
+          79
+        ],
+        [
+          3,
+          9644,
+          123
+        ],
+        [
+          3,
+          9644,
+          111
+        ],
+        [
+          3,
+          9644,
+          125
+        ]
+      ],
+      "remaining_hex": "",
+      "status": "candidate"
+    },
+    {
+      "index": 446,
+      "offset": 140209,
+      "tag": 113,
+      "length": 8,
+      "hex": "4765744173796e63",
+      "utf8": "GetAsync",
+      "status": "candidate"
+    },
+    {
+      "index": 447,
+      "offset": 166835,
+      "tag": 167,
+      "value": 0.2666666805744171,
+      "bits_hex": "8988883e",
+      "classification": "finite",
+      "status": "candidate"
+    },
+    {
+      "index": 448,
+      "offset": 11221,
+      "tag": 237,
+      "value": 3328231464,
+      "status": "candidate"
+    },
+    {
+      "index": 449,
+      "offset": 136976,
+      "tag": 237,
+      "value": 2743571051,
+      "status": "candidate"
+    },
+    {
+      "index": 450,
+      "offset": 9234,
+      "tag": 237,
+      "value": 2561780072,
+      "status": "candidate"
+    },
+    {
+      "index": 451,
+      "offset": 137394,
+      "tag": 113,
+      "length": 13,
+      "hex": "546f45756c6572416e676c6573",
+      "utf8": "ToEulerAngles",
+      "status": "candidate"
+    },
+    {
+      "index": 452,
+      "offset": 236545033,
+      "status": "unresolved_offset"
+    },
+    {
+      "index": 453,
+      "offset": 9756,
+      "tag": 242,
+      "value": 79,
+      "status": "candidate"
+    },
+    {
+      "index": 454,
+      "offset": 8640,
+      "tag": 70,
+      "value": 1042438704,
+      "status": "candidate"
+    },
+    {
+      "index": 455,
+      "offset": 145277,
+      "tag": 237,
+      "value": 3712514229,
+      "status": "candidate"
+    },
+    {
+      "index": 456,
+      "offset": 115938,
+      "tag": 237,
+      "value": 3733721953,
+      "status": "candidate"
+    },
+    {
+      "index": 457,
+      "offset": 16578,
+      "tag": 70,
+      "value": 1330597711,
+      "status": "candidate"
+    },
+    {
+      "index": 458,
+      "offset": 143155,
+      "tag": 70,
+      "value": 1744639707,
+      "status": "candidate"
+    },
+    {
+      "index": 459,
+      "offset": 9111,
+      "tag": 70,
+      "value": 920031673,
+      "status": "candidate"
+    },
+    {
+      "index": 460,
+      "offset": 20531,
+      "tag": 237,
+      "value": 3544293451,
+      "status": "candidate"
+    },
+    {
+      "index": 461,
+      "offset": 143143,
+      "tag": 113,
+      "length": 10,
+      "hex": "5f5f6e6577696e646578",
+      "utf8": "__newindex",
+      "status": "candidate"
+    },
+    {
+      "index": 462,
+      "offset": 15082,
+      "tag": 70,
+      "value": 1609808549,
+      "status": "candidate"
+    },
+    {
+      "index": 463,
+      "offset": 165219,
+      "tag": 242,
+      "value": 3,
+      "status": "candidate"
+    },
+    {
+      "index": 464,
+      "offset": 9146,
+      "tag": 192,
+      "status": "unresolved",
+      "reason": "unsupported constant tag 192 at index 464"
+    },
+    {
+      "index": 465,
+      "offset": 236662062,
+      "status": "unresolved_offset"
+    },
+    {
+      "index": 466,
+      "offset": 717,
+      "tag": 113,
+      "length": 14,
+      "hex": "4f7274686f6e6f726d616c697a65",
+      "utf8": "Orthonormalize",
+      "status": "candidate"
+    },
+    {
+      "index": 467,
+      "offset": 137455,
+      "tag": 113,
+      "length": 21,
+      "hex": "5b3a5d2825642b295b5e257525555d2a5b3a0d0a5d",
+      "utf8": "[:](%d+)[^%u%U]*[:\r\n]",
+      "status": "candidate"
+    },
+    {
+      "index": 468,
+      "offset": 9539,
+      "tag": 237,
+      "value": 3456073143,
+      "status": "candidate"
+    },
+    {
+      "index": 469,
+      "offset": 20557,
+      "tag": 237,
+      "value": 3839643614,
+      "status": "candidate"
+    },
+    {
+      "index": 470,
+      "offset": 144650,
+      "tag": 237,
+      "value": 3086431103,
+      "status": "candidate"
+    },
+    {
+      "index": 471,
+      "offset": 9724,
+      "tag": 113,
+      "length": 9,
+      "hex": "6772617068656d6573",
+      "utf8": "graphemes",
+      "status": "candidate"
+    },
+    {
+      "index": 472,
+      "offset": 9849,
+      "tag": 170,
+      "length": 5,
+      "hex": "0283678363",
+      "captures": [
+        [
+          3,
+          9644,
+          121
+        ],
+        [
+          3,
+          9644,
+          120
+        ]
+      ],
+      "remaining_hex": "",
+      "status": "candidate"
+    },
+    {
+      "index": 473,
+      "offset": 132416,
+      "tag": 237,
+      "value": 4283708222,
+      "status": "candidate"
+    },
+    {
+      "index": 474,
+      "offset": 20178,
+      "tag": 113,
+      "length": 4,
+      "hex": "77616974",
+      "utf8": "wait",
+      "status": "candidate"
+    },
+    {
+      "index": 475,
+      "offset": 145272,
+      "tag": 237,
+      "value": 2500083867,
+      "status": "candidate"
+    },
+    {
+      "index": 476,
+      "offset": 144680,
+      "tag": 167,
+      "value": 0.9166666865348816,
+      "bits_hex": "abaa6a3f",
+      "classification": "finite",
+      "status": "candidate"
+    },
+    {
+      "index": 477,
+      "offset": 814,
+      "tag": 70,
+      "value": 1396635523,
+      "status": "candidate"
+    },
+    {
+      "index": 478,
+      "offset": 19193,
+      "tag": 237,
+      "value": 2510573666,
+      "status": "candidate"
+    },
+    {
+      "index": 479,
+      "offset": 115991,
+      "tag": 237,
+      "value": 3509621899,
+      "status": "candidate"
+    },
+    {
+      "index": 480,
+      "offset": 142737,
+      "tag": 169,
+      "value": -6,
+      "status": "candidate"
+    },
+    {
+      "index": 481,
+      "offset": 165240,
+      "tag": 70,
+      "value": 887788794,
+      "status": "candidate"
+    },
+    {
+      "index": 482,
+      "offset": 9831,
+      "tag": 218,
+      "bits_hex": "201d9ae866e4c23f",
+      "value": 0.14759527547378415,
+      "classification": "finite",
+      "status": "candidate"
+    },
+    {
+      "index": 483,
+      "offset": 8645,
+      "tag": 70,
+      "value": 1117709668,
+      "status": "candidate"
+    },
+    {
+      "index": 484,
+      "offset": 137409,
+      "tag": 113,
+      "length": 5,
+      "hex": "456e756d73",
+      "utf8": "Enums",
+      "status": "candidate"
+    },
+    {
+      "index": 485,
+      "offset": 144737,
+      "tag": 237,
+      "value": 2523990731,
+      "status": "candidate"
+    },
+    {
+      "index": 486,
+      "offset": 144696,
+      "tag": 113,
+      "length": 4,
+      "hex": "7061636b",
+      "utf8": "pack",
+      "status": "candidate"
+    },
+    {
+      "index": 487,
+      "offset": 143002,
+      "tag": 70,
+      "value": 1049742340,
+      "status": "candidate"
+    },
+    {
+      "index": 488,
+      "offset": 9241,
+      "tag": 70,
+      "value": 830121745,
+      "status": "candidate"
+    },
+    {
+      "index": 489,
+      "offset": 166317,
+      "tag": 184,
+      "status": "unresolved",
+      "reason": "unsupported constant tag 184 at index 489"
+    },
+    {
+      "index": 490,
+      "offset": 236669210,
+      "status": "unresolved_offset"
+    },
+    {
+      "index": 491,
+      "offset": 165442,
+      "tag": 70,
+      "value": 561690856,
+      "status": "candidate"
+    },
+    {
+      "index": 492,
+      "offset": 145301,
+      "tag": 113,
+      "length": 1,
+      "hex": "64",
+      "utf8": "d",
+      "status": "candidate"
+    },
+    {
+      "index": 493,
+      "offset": 15,
+      "tag": 113,
+      "length": 4,
+      "hex": "4261636b",
+      "utf8": "Back",
+      "status": "candidate"
+    },
+    {
+      "index": 494,
+      "offset": 144728,
+      "tag": 113,
+      "length": 7,
+      "hex": "6c726f74617465",
+      "utf8": "lrotate",
+      "status": "candidate"
+    },
+    {
+      "index": 495,
+      "offset": 9735,
+      "tag": 170,
+      "length": 5,
+      "hex": "02831f831b",
+      "captures": [
+        [
+          3,
+          9644,
+          103
+        ],
+        [
+          3,
+          9644,
+          102
+        ]
+      ],
+      "remaining_hex": "",
+      "status": "candidate"
+    },
+    {
+      "index": 496,
+      "offset": 41,
+      "tag": 70,
+      "value": 1783187605,
+      "status": "candidate"
+    },
+    {
+      "index": 497,
+      "offset": 20542,
+      "tag": 237,
+      "value": 2495295549,
+      "status": "candidate"
+    },
+    {
+      "index": 498,
+      "offset": 196,
+      "tag": 237,
+      "value": 3359697569,
+      "status": "candidate"
+    },
+    {
+      "index": 499,
+      "offset": 14973,
+      "tag": 70,
+      "value": 1634760805,
+      "status": "candidate"
+    },
+    {
+      "index": 500,
+      "offset": 19286,
+      "tag": 113,
+      "length": 12,
+      "hex": "526571756573744173796e63",
+      "utf8": "RequestAsync",
+      "status": "candidate"
+    },
+    {
+      "index": 501,
+      "offset": 9592,
+      "tag": 169,
+      "value": -5,
+      "status": "candidate"
+    },
+    {
+      "index": 502,
+      "offset": 132401,
+      "tag": 70,
+      "value": 2142820059,
+      "status": "candidate"
+    },
+    {
+      "index": 503,
+      "offset": 9356,
+      "tag": 113,
+      "length": 5,
+      "hex": "6465627567",
+      "utf8": "debug",
+      "status": "candidate"
+    },
+    {
+      "index": 504,
+      "offset": 157431,
+      "tag": 113,
+      "length": 6,
+      "hex": "6c6f6f6b4174",
+      "utf8": "lookAt",
+      "status": "candidate"
+    },
+    {
+      "index": 505,
+      "offset": 19109,
+      "tag": 113,
+      "length": 3,
+      "hex": "4d6178",
+      "utf8": "Max",
+      "status": "candidate"
+    },
+    {
+      "index": 506,
+      "offset": 132547,
+      "tag": 237,
+      "value": 2247042898,
+      "status": "candidate"
+    },
+    {
+      "index": 507,
+      "offset": 166301,
+      "tag": 70,
+      "value": 1984346626,
+      "status": "candidate"
+    },
+    {
+      "index": 508,
+      "offset": 819,
+      "tag": 237,
+      "value": 2911962131,
+      "status": "candidate"
+    },
+    {
+      "index": 509,
+      "offset": 144888,
+      "tag": 237,
+      "value": 2708455808,
+      "status": "candidate"
+    },
+    {
+      "index": 510,
+      "offset": 142854,
+      "tag": 237,
+      "value": 2166136261,
+      "status": "candidate"
+    },
+    {
+      "index": 511,
+      "offset": 19079,
+      "tag": 113,
+      "length": 5,
+      "hex": "7063616c6c",
+      "utf8": "pcall",
+      "status": "candidate"
+    },
+    {
+      "index": 512,
+      "offset": 140084,
+      "tag": 184,
+      "status": "unresolved",
+      "reason": "unsupported constant tag 184 at index 512"
+    },
+    {
+      "index": 513,
+      "offset": 11284,
+      "tag": 242,
+      "value": 55,
+      "status": "candidate"
+    },
+    {
+      "index": 514,
+      "offset": 144618,
+      "tag": 167,
+      "value": 0.125,
+      "bits_hex": "0000003e",
+      "classification": "finite",
+      "status": "candidate"
+    },
+    {
+      "index": 515,
+      "offset": 132569,
+      "tag": 237,
+      "value": 2507485453,
+      "status": "candidate"
+    },
+    {
+      "index": 516,
+      "offset": 22352,
+      "tag": 170,
+      "length": 11,
+      "hex": "05836f836b833f8377823f",
+      "captures": [
+        [
+          3,
+          9644,
+          123
+        ],
+        [
+          3,
+          9644,
+          122
+        ],
+        [
+          3,
+          9644,
+          111
+        ],
+        [
+          3,
+          9644,
+          125
+        ],
+        [
+          3,
+          9644,
+          79
+        ]
+      ],
+      "remaining_hex": "",
+      "status": "candidate"
+    },
+    {
+      "index": 517,
+      "offset": 144742,
+      "tag": 70,
+      "value": 1581059888,
+      "status": "candidate"
+    },
+    {
+      "index": 518,
+      "offset": 9396,
+      "tag": 113,
+      "length": 8,
+      "hex": "5570566563746f72",
+      "utf8": "UpVector",
+      "status": "candidate"
+    },
+    {
+      "index": 519,
+      "offset": 142908,
+      "tag": 242,
+      "value": 56,
+      "status": "candidate"
+    },
+    {
+      "index": 520,
+      "offset": 137527,
+      "tag": 70,
+      "value": 778677347,
+      "status": "candidate"
+    },
+    {
+      "index": 521,
+      "offset": 16624,
+      "tag": 113,
+      "length": 34,
+      "hex": "5b3a5d285b25645d25642a295b5e257525555d2a5b0a253a0d5d5b5e257325535d3f",
+      "utf8": "[:]([%d]%d*)[^%u%U]*[\n%:\r][^%s%S]?",
+      "status": "candidate"
+    },
+    {
+      "index": 522,
+      "offset": 165279,
+      "tag": 218,
+      "bits_hex": "0ac81b4556f4b43f",
+      "value": 0.08185328662128213,
+      "classification": "finite",
+      "status": "candidate"
+    },
+    {
+      "index": 523,
+      "offset": 14994,
+      "tag": 70,
+      "value": 848928828,
+      "status": "candidate"
+    },
+    {
+      "index": 524,
+      "offset": 16532,
+      "tag": 113,
+      "length": 6,
+      "hex": "737461747573",
+      "utf8": "status",
+      "status": "candidate"
+    },
+    {
+      "index": 525,
+      "offset": 11233,
+      "tag": 237,
+      "value": 3683306876,
+      "status": "candidate"
+    },
+    {
+      "index": 526,
+      "offset": 144557,
+      "tag": 113,
+      "length": 11,
+      "hex": "69737969656c6461626c65",
+      "utf8": "isyieldable",
+      "status": "candidate"
+    },
+    {
+      "index": 527,
+      "offset": 9524,
+      "tag": 113,
+      "length": 13,
+      "hex": "546f4f7269656e746174696f6e",
+      "utf8": "ToOrientation",
+      "status": "candidate"
+    },
+    {
+      "index": 528,
+      "offset": 16564,
+      "tag": 113,
+      "length": 12,
+      "hex": "7365746d6574617461626c65",
+      "utf8": "setmetatable",
+      "status": "candidate"
+    },
+    {
+      "index": 529,
+      "offset": 115948,
+      "tag": 113,
+      "length": 3,
+      "hex": "737562",
+      "utf8": "sub",
+      "status": "candidate"
+    },
+    {
+      "index": 530,
+      "offset": 142698,
+      "tag": 70,
+      "value": 1340300652,
+      "status": "candidate"
+    },
+    {
+      "index": 531,
+      "offset": 22643,
+      "tag": 184,
+      "status": "unresolved",
+      "reason": "unsupported constant tag 184 at index 531"
+    },
+    {
+      "index": 532,
+      "offset": 166667,
+      "tag": 70,
+      "value": 2120730480,
+      "status": "candidate"
+    },
+    {
+      "index": 533,
+      "offset": 144685,
+      "tag": 113,
+      "length": 9,
+      "hex": "73686f72745f737263",
+      "utf8": "short_src",
+      "status": "candidate"
+    },
+    {
+      "index": 534,
+      "offset": 16610,
+      "tag": 237,
+      "value": 3733276441,
+      "status": "candidate"
+    },
+    {
+      "index": 535,
+      "offset": 143261,
+      "tag": 237,
+      "value": 4194368204,
+      "status": "candidate"
+    },
+    {
+      "index": 536,
+      "offset": 142473,
+      "tag": 113,
+      "length": 5,
+      "hex": "636c656172",
+      "utf8": "clear",
+      "status": "candidate"
+    },
+    {
+      "index": 537,
+      "offset": 166840,
+      "tag": 237,
+      "value": 2754420215,
+      "status": "candidate"
+    },
+    {
+      "index": 538,
+      "offset": 144570,
+      "tag": 170,
+      "length": 5,
+      "hex": "02864b835f",
+      "captures": [
+        [
+          3,
+          9644,
+          210
+        ],
+        [
+          3,
+          9644,
+          119
+        ]
+      ],
+      "remaining_hex": "",
+      "status": "candidate"
+    },
+    {
+      "index": 539,
+      "offset": 90209,
+      "tag": 184,
+      "status": "unresolved",
+      "reason": "unsupported constant tag 184 at index 539"
+    },
+    {
+      "index": 540,
+      "offset": 142821,
+      "tag": 113,
+      "length": 1,
+      "hex": "54",
+      "utf8": "T",
+      "status": "candidate"
+    },
+    {
+      "index": 541,
+      "offset": 90731,
+      "tag": 70,
+      "value": 1554226937,
+      "status": "candidate"
+    },
+    {
+      "index": 542,
+      "offset": 9793,
+      "tag": 70,
+      "value": 549957301,
+      "status": "candidate"
+    },
+    {
+      "index": 543,
+      "offset": 9057,
+      "tag": 113,
+      "length": 7,
+      "hex": "72726f74617465",
+      "utf8": "rrotate",
+      "status": "candidate"
+    },
+    {
+      "index": 544,
+      "offset": 142487,
+      "tag": 70,
+      "value": 1318914163,
+      "status": "candidate"
+    },
+    {
+      "index": 545,
+      "offset": 143201,
+      "tag": 113,
+      "length": 9,
+      "hex": "776f726b7370616365",
+      "utf8": "workspace",
+      "status": "candidate"
+    },
+    {
+      "index": 546,
+      "offset": 132535,
+      "tag": 113,
+      "length": 10,
+      "hex": "72656164737472696e67",
+      "utf8": "readstring",
+      "status": "candidate"
+    },
+    {
+      "index": 547,
+      "offset": 236682526,
+      "status": "unresolved_offset"
+    },
+    {
+      "index": 548,
+      "offset": 145214,
+      "tag": 237,
+      "value": 2940462053,
+      "status": "candidate"
+    },
+    {
+      "index": 549,
+      "offset": 143274,
+      "tag": 113,
+      "length": 6,
+      "hex": "787063616c6c",
+      "utf8": "xpcall",
+      "status": "candidate"
+    },
+    {
+      "index": 550,
+      "offset": 8658,
+      "tag": 184,
+      "status": "unresolved",
+      "reason": "unsupported constant tag 184 at index 550"
+    },
+    {
+      "index": 551,
+      "offset": 62,
+      "tag": 237,
+      "value": 2917786804,
+      "status": "candidate"
+    },
+    {
+      "index": 552,
+      "offset": 236588729,
+      "status": "unresolved_offset"
+    },
+    {
+      "index": 553,
+      "offset": 236593134,
+      "status": "unresolved_offset"
+    },
+    {
+      "index": 554,
+      "offset": 12842,
+      "tag": 237,
+      "value": 4111070074,
+      "status": "candidate"
+    },
+    {
+      "index": 555,
+      "offset": 142979,
+      "tag": 70,
+      "value": 669602839,
+      "status": "candidate"
+    },
+    {
+      "index": 556,
+      "offset": 144752,
+      "tag": 167,
+      "value": -1.0660216808319092,
+      "bits_hex": "667388bf",
+      "classification": "finite",
+      "status": "candidate"
+    },
+    {
+      "index": 557,
+      "offset": 236662068,
+      "status": "unresolved_offset"
+    },
+    {
+      "index": 558,
+      "offset": 137389,
+      "tag": 167,
+      "value": 0.8333333134651184,
+      "bits_hex": "5555553f",
+      "classification": "finite",
+      "status": "candidate"
+    },
+    {
+      "index": 559,
+      "offset": 116002,
+      "tag": 70,
+      "value": 984523470,
+      "status": "candidate"
+    },
+    {
+      "index": 560,
+      "offset": 12237,
+      "tag": 170,
+      "length": 5,
+      "hex": "02842f8433",
+      "captures": [
+        [
+          3,
+          9644,
+          139
+        ],
+        [
+          3,
+          9644,
+          140
+        ]
+      ],
+      "remaining_hex": "",
+      "status": "candidate"
+    },
+    {
+      "index": 561,
+      "offset": 132563,
+      "tag": 170,
+      "length": 4,
+      "hex": "0367777b",
+      "captures": [
+        [
+          3,
+          9644,
+          25
+        ],
+        [
+          3,
+          9644,
+          29
+        ],
+        [
+          3,
+          9644,
+          30
+        ]
+      ],
+      "remaining_hex": "",
+      "status": "candidate"
+    },
+    {
+      "index": 562,
+      "offset": 90726,
+      "tag": 237,
+      "value": 3983464769,
+      "status": "candidate"
+    },
+    {
+      "index": 563,
+      "offset": 536868674,
+      "status": "unresolved_offset"
+    },
+    {
+      "index": 564,
+      "offset": 90854,
+      "tag": 237,
+      "value": 2197718885,
+      "status": "candidate"
+    },
+    {
+      "index": 565,
+      "offset": 144793,
+      "tag": 244,
+      "value": 1039,
+      "status": "candidate"
+    },
+    {
+      "index": 566,
+      "offset": 9594,
+      "tag": 170,
+      "length": 9,
+      "hex": "04836f833f83778343",
+      "captures": [
+        [
+          3,
+          9644,
+          123
+        ],
+        [
+          3,
+          9644,
+          111
+        ],
+        [
+          3,
+          9644,
+          125
+        ],
+        [
+          3,
+          9644,
+          112
+        ]
+      ],
+      "remaining_hex": "",
+      "status": "candidate"
+    },
+    {
+      "index": 567,
+      "offset": 137543,
+      "tag": 237,
+      "value": 3808227166,
+      "status": "candidate"
+    },
+    {
+      "index": 568,
+      "offset": 165354,
+      "tag": 113,
+      "length": 69,
+      "hex": "6d6f64756c652e6c75613a37393a20617474656d707420746f20706572666f726d2061726974686d657469632028706f7729206f6e206e696c20616e6420626f6f6c65616e",
+      "utf8": "module.lua:79: attempt to perform arithmetic (pow) on nil and boolean",
+      "status": "candidate"
+    },
+    {
+      "index": 569,
+      "offset": 19114,
+      "tag": 113,
+      "length": 7,
+      "hex": "72756e6e696e67",
+      "utf8": "running",
+      "status": "candidate"
+    },
+    {
+      "index": 570,
+      "offset": 137538,
+      "tag": 70,
+      "value": 540352628,
+      "status": "candidate"
+    },
+    {
+      "index": 571,
+      "offset": 145323,
+      "tag": 237,
+      "value": 2754420217,
+      "status": "candidate"
+    },
+    {
+      "index": 572,
+      "offset": 141930,
+      "tag": 28,
+      "kind": "Vector2",
+      "components": [
+        0.515983521938324,
+        0.48399826884269714
+      ],
+      "bits_hex": [
+        "7f17043f",
+        "9fcef73e"
+      ],
+      "classifications": [
+        "finite",
+        "finite"
+      ],
+      "status": "candidate"
+    },
+    {
+      "index": 573,
+      "offset": 16615,
+      "tag": 218,
+      "bits_hex": "bc5a7f4bcee8bc3f",
+      "value": 0.11292733519745018,
+      "classification": "finite",
+      "status": "candidate"
+    },
+    {
+      "index": 574,
+      "offset": 157392,
+      "tag": 70,
+      "value": 1058761826,
+      "status": "candidate"
+    },
+    {
+      "index": 575,
+      "offset": 20194,
+      "tag": 184,
+      "status": "unresolved",
+      "reason": "unsupported constant tag 184 at index 575"
+    },
+    {
+      "index": 576,
+      "offset": 22370,
+      "tag": 113,
+      "length": 7,
+      "hex": "77726974657538",
+      "utf8": "writeu8",
+      "status": "candidate"
+    },
+    {
+      "index": 577,
+      "offset": 236582411,
+      "status": "unresolved_offset"
+    },
+    {
+      "index": 578,
+      "offset": 157454,
+      "tag": 237,
+      "value": 3173348151,
+      "status": "candidate"
+    },
+    {
+      "index": 579,
+      "offset": 140148,
+      "tag": 170,
+      "length": 15,
+      "hex": "07840f842b823f836f833f8377837b",
+      "captures": [
+        [
+          3,
+          9644,
+          131
+        ],
+        [
+          3,
+          9644,
+          138
+        ],
+        [
+          3,
+          9644,
+          79
+        ],
+        [
+          3,
+          9644,
+          123
+        ],
+        [
+          3,
+          9644,
+          111
+        ],
+        [
+          3,
+          9644,
+          125
+        ],
+        [
+          3,
+          9644,
+          126
+        ]
+      ],
+      "remaining_hex": "",
+      "status": "candidate"
+    },
+    {
+      "index": 580,
+      "offset": 8625,
+      "tag": 70,
+      "value": 1540547080,
+      "status": "candidate"
+    },
+    {
+      "index": 581,
+      "offset": 9116,
+      "tag": 113,
+      "length": 6,
+      "hex": "736f75726365",
+      "utf8": "source",
+      "status": "candidate"
+    },
+    {
+      "index": 582,
+      "offset": 12265,
+      "tag": 113,
+      "length": 10,
+      "hex": "6c6f6164737472696e67",
+      "utf8": "loadstring",
+      "status": "candidate"
+    },
+    {
+      "index": 583,
+      "offset": 142920,
+      "tag": 195,
+      "value": -895,
+      "status": "candidate"
+    },
+    {
+      "index": 584,
+      "offset": 145296,
+      "tag": 237,
+      "value": 3131203608,
+      "status": "candidate"
+    },
+    {
+      "index": 585,
+      "offset": 90778,
+      "tag": 113,
+      "length": 11,
+      "hex": "4874747053657276696365",
+      "utf8": "HttpService",
+      "status": "candidate"
+    },
+    {
+      "index": 586,
+      "offset": 12801,
+      "tag": 70,
+      "value": 1863859762,
+      "status": "candidate"
+    },
+    {
+      "index": 587,
+      "offset": 36,
+      "tag": 70,
+      "value": 572662306,
+      "status": "candidate"
+    },
+    {
+      "index": 588,
+      "offset": 9331,
+      "tag": 113,
+      "length": 5,
+      "hex": "466c6f6f72",
+      "utf8": "Floor",
+      "status": "candidate"
+    },
+    {
+      "index": 589,
+      "offset": 9086,
+      "tag": 184,
+      "status": "unresolved",
+      "reason": "unsupported constant tag 184 at index 589"
+    },
+    {
+      "index": 590,
+      "offset": 11274,
+      "tag": 237,
+      "value": 3378550231,
+      "status": "candidate"
+    },
+    {
+      "index": 591,
+      "offset": 782,
+      "tag": 113,
+      "length": 8,
+      "hex": "6e616d6577686174",
+      "utf8": "namewhat",
+      "status": "candidate"
+    },
+    {
+      "index": 592,
+      "offset": 144788,
+      "tag": 70,
+      "value": 621342807,
+      "status": "candidate"
+    },
+    {
+      "index": 593,
+      "offset": 9166,
+      "tag": 113,
+      "length": 7,
+      "hex": "676574696e666f",
+      "utf8": "getinfo",
+      "status": "candidate"
+    },
+    {
+      "index": 594,
+      "offset": 9037,
+      "tag": 218,
+      "bits_hex": "58ef8c1a362fee3f",
+      "value": 0.9432631033482535,
+      "classification": "finite",
+      "status": "candidate"
+    },
+    {
+      "index": 595,
+      "offset": 157512,
+      "tag": 70,
+      "value": 866593613,
+      "status": "candidate"
+    },
+    {
+      "index": 596,
+      "offset": 12866,
+      "tag": 184,
+      "status": "unresolved",
+      "reason": "unsupported constant tag 184 at index 596"
+    },
+    {
+      "index": 597,
+      "offset": 120827,
+      "tag": 113,
+      "length": 16,
+      "hex": "546f45756c6572416e676c657359585a",
+      "utf8": "ToEulerAnglesYXZ",
+      "status": "candidate"
+    },
+    {
+      "index": 598,
+      "offset": 143307,
+      "tag": 184,
+      "status": "unresolved",
+      "reason": "unsupported constant tag 184 at index 598"
+    },
+    {
+      "index": 599,
+      "offset": 144643,
+      "tag": 242,
+      "value": 3,
+      "status": "candidate"
+    },
+    {
+      "index": 600,
+      "offset": 142713,
+      "tag": 113,
+      "length": 7,
+      "hex": "44656661756c74",
+      "utf8": "Default",
+      "status": "candidate"
+    },
+    {
+      "index": 601,
+      "offset": 142859,
+      "tag": 165,
+      "status": "unresolved",
+      "reason": "unsupported constant tag 165 at index 601"
+    },
+    {
+      "index": 602,
+      "offset": 120885,
+      "tag": 203,
+      "kind": "Vector3",
+      "components": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "bits_hex": [
+        "00000000",
+        "0000803f",
+        "00000000"
+      ],
+      "classifications": [
+        "finite",
+        "finite",
+        "finite"
+      ],
+      "status": "candidate"
+    },
+    {
+      "index": 603,
+      "offset": 90768,
+      "tag": 237,
+      "value": 3598926980,
+      "status": "candidate"
+    },
+    {
+      "index": 604,
+      "offset": 137483,
+      "tag": 170,
+      "length": 5,
+      "hex": "0287138237",
+      "captures": [
+        [
+          3,
+          9644,
+          228
+        ],
+        [
+          3,
+          9644,
+          77
+        ]
+      ],
+      "remaining_hex": "",
+      "status": "candidate"
+    },
+    {
+      "index": 605,
+      "offset": 142444,
+      "tag": 218,
+      "bits_hex": "80e378636a00ce3f",
+      "value": 0.23438768250505504,
+      "classification": "finite",
+      "status": "candidate"
+    },
+    {
+      "index": 606,
+      "offset": 15077,
+      "tag": 237,
+      "value": 4076768260,
+      "status": "candidate"
+    },
+    {
+      "index": 607,
+      "offset": 157602,
+      "tag": 113,
+      "length": 4,
+      "hex": "41786973",
+      "utf8": "Axis",
+      "status": "candidate"
+    },
+    {
+      "index": 608,
+      "offset": 144922,
+      "tag": 70,
+      "value": 577356276,
+      "status": "candidate"
+    },
+    {
+      "index": 609,
+      "offset": 165263,
+      "tag": 113,
+      "length": 7,
+      "hex": "72656164693332",
+      "utf8": "readi32",
+      "status": "candidate"
+    },
+    {
+      "index": 610,
+      "offset": 236541742,
+      "status": "unresolved_offset"
+    },
+    {
+      "index": 611,
+      "offset": 7783,
+      "tag": 237,
+      "value": 2619974649,
+      "status": "candidate"
+    },
+    {
+      "index": 612,
+      "offset": 90757,
+      "tag": 113,
+      "length": 9,
+      "hex": "4765744c656e677468",
+      "utf8": "GetLength",
+      "status": "candidate"
+    },
+    {
+      "index": 613,
+      "offset": 9306,
+      "tag": 113,
+      "length": 6,
+      "hex": "726177676574",
+      "utf8": "rawget",
+      "status": "candidate"
+    },
+    {
+      "index": 614,
+      "offset": 257,
+      "tag": 113,
+      "length": 7,
+      "hex": "566563746f7232",
+      "utf8": "Vector2",
+      "status": "candidate"
+    },
+    {
+      "index": 615,
+      "offset": 10,
+      "tag": 237,
+      "value": 3426957038,
+      "status": "candidate"
+    },
+    {
+      "index": 616,
+      "offset": 22342,
+      "tag": 70,
+      "value": 1155695087,
+      "status": "candidate"
+    },
+    {
+      "index": 617,
+      "offset": 157541,
+      "tag": 237,
+      "value": 2178249367,
+      "status": "candidate"
+    },
+    {
+      "index": 618,
+      "offset": 165432,
+      "tag": 70,
+      "value": 603992165,
+      "status": "candidate"
+    },
+    {
+      "index": 619,
+      "offset": 19096,
+      "tag": 170,
+      "length": 3,
+      "hex": "020d3b",
+      "captures": [
+        [
+          1,
+          9644,
+          3
+        ],
+        [
+          3,
+          9644,
+          14
+        ]
+      ],
+      "remaining_hex": "",
+      "status": "candidate"
+    },
+    {
+      "index": 620,
+      "offset": 19263,
+      "tag": 237,
+      "value": 2327527378,
+      "status": "candidate"
+    },
+    {
+      "index": 621,
+      "offset": 142497,
+      "tag": 242,
+      "value": 201,
+      "status": "candidate"
+    },
+    {
+      "index": 622,
+      "offset": 11246,
+      "tag": 70,
+      "value": 1493191937,
+      "status": "candidate"
+    },
+    {
+      "index": 623,
+      "offset": 7820,
+      "tag": 237,
+      "value": 4034467172,
+      "status": "candidate"
+    },
+    {
+      "index": 624,
+      "offset": 236582422,
+      "status": "unresolved_offset"
+    },
+    {
+      "index": 625,
+      "offset": 90736,
+      "tag": 70,
+      "value": 1746846184,
+      "status": "candidate"
+    },
+    {
+      "index": 626,
+      "offset": 8120,
+      "tag": 184,
+      "status": "unresolved",
+      "reason": "unsupported constant tag 184 at index 626"
+    },
+    {
+      "index": 627,
+      "offset": 8615,
+      "tag": 70,
+      "value": 611660634,
+      "status": "candidate"
+    },
+    {
+      "index": 628,
+      "offset": 143028,
+      "tag": 237,
+      "value": 2605753034,
+      "status": "candidate"
+    },
+    {
+      "index": 629,
+      "offset": 115953,
+      "tag": 113,
+      "length": 12,
+      "hex": "476574456e756d4974656d73",
+      "utf8": "GetEnumItems",
+      "status": "candidate"
+    },
+    {
+      "index": 630,
+      "offset": 126513,
+      "tag": 70,
+      "value": 653986075,
+      "status": "candidate"
+    },
+    {
+      "index": 631,
+      "offset": 143190,
+      "tag": 237,
+      "value": 4294967294,
+      "status": "candidate"
+    },
+    {
+      "index": 632,
+      "offset": 13336,
+      "tag": 237,
+      "value": 3446038469,
+      "status": "candidate"
+    },
+    {
+      "index": 633,
+      "offset": 144807,
+      "tag": 70,
+      "value": 1866766470,
+      "status": "candidate"
+    },
+    {
+      "index": 634,
+      "offset": 11291,
+      "tag": 218,
+      "bits_hex": "08d9d0eb9f4ee93f",
+      "value": 0.790847740724332,
+      "classification": "finite",
+      "status": "candidate"
+    },
+    {
+      "index": 635,
+      "offset": 874,
+      "tag": 70,
+      "value": 1093741697,
+      "status": "candidate"
+    },
+    {
+      "index": 636,
+      "offset": 12814,
+      "tag": 113,
+      "length": 1,
+      "hex": "43",
+      "utf8": "C",
+      "status": "candidate"
+    },
+    {
+      "index": 637,
+      "offset": 157469,
+      "tag": 237,
+      "value": 3183966928,
+      "status": "candidate"
+    },
+    {
+      "index": 638,
+      "offset": 236538473,
+      "status": "unresolved_offset"
+    },
+    {
+      "index": 639,
+      "offset": 9271,
+      "tag": 113,
+      "length": 5,
+      "hex": "6465666572",
+      "utf8": "defer",
+      "status": "candidate"
+    },
+    {
+      "index": 640,
+      "offset": 712,
+      "tag": 237,
+      "value": 2412413862,
+      "status": "candidate"
+    },
+    {
+      "index": 641,
+      "offset": 140100,
+      "tag": 113,
+      "length": 12,
+      "hex": "6e66646e6f726d616c697a65",
+      "utf8": "nfdnormalize",
+      "status": "candidate"
+    },
+    {
+      "index": 642,
+      "offset": 140070,
+      "tag": 113,
+      "length": 7,
+      "hex": "72656164663332",
+      "utf8": "readf32",
+      "status": "candidate"
+    },
+    {
+      "index": 643,
+      "offset": 144927,
+      "tag": 184,
+      "status": "unresolved",
+      "reason": "unsupported constant tag 184 at index 643"
+    },
+    {
+      "index": 644,
+      "offset": 115996,
+      "tag": 113,
+      "length": 4,
+      "hex": "6d617468",
+      "utf8": "math",
+      "status": "candidate"
+    },
+    {
+      "index": 645,
+      "offset": 8108,
+      "tag": 237,
+      "value": 2962233878,
+      "status": "candidate"
+    },
+    {
+      "index": 646,
+      "offset": 145309,
+      "tag": 113,
+      "length": 7,
+      "hex": "77726974656938",
+      "utf8": "writei8",
+      "status": "candidate"
+    },
+    {
+      "index": 647,
+      "offset": 22347,
+      "tag": 70,
+      "value": 1529847402,
+      "status": "candidate"
+    },
+    {
+      "index": 648,
+      "offset": 145240,
+      "tag": 237,
+      "value": 3590180529,
+      "status": "candidate"
+    },
+    {
+      "index": 649,
+      "offset": 142460,
+      "tag": 113,
+      "length": 11,
+      "hex": "6c696e65646566696e6564",
+      "utf8": "linedefined",
+      "status": "candidate"
+    },
+    {
+      "index": 650,
+      "offset": 142844,
+      "tag": 237,
+      "value": 3130061161,
+      "status": "candidate"
+    },
+    {
+      "index": 651,
+      "offset": 157536,
+      "tag": 237,
+      "value": 3733276439,
+      "status": "candidate"
+    },
+    {
+      "index": 652,
+      "offset": 7788,
+      "tag": 113,
+      "length": 7,
+      "hex": "72656164663634",
+      "utf8": "readf64",
+      "status": "candidate"
+    },
+    {
+      "index": 653,
+      "offset": 166722,
+      "tag": 218,
+      "bits_hex": "14b92125d145d53f",
+      "value": 0.3323862898459009,
+      "classification": "finite",
+      "status": "candidate"
+    },
+    {
+      "index": 654,
+      "offset": 95121,
+      "tag": 237,
+      "value": 3274490241,
+      "status": "candidate"
+    },
+    {
+      "index": 655,
+      "offset": 236540365,
+      "status": "unresolved_offset"
+    },
+    {
+      "index": 656,
+      "offset": 165306,
+      "tag": 167,
+      "value": 0.017467249184846878,
+      "bits_hex": "7a178f3c",
+      "classification": "finite",
+      "status": "candidate"
+    },
+    {
+      "index": 657,
+      "offset": 9205,
+      "tag": 70,
+      "value": 816668570,
+      "status": "candidate"
+    },
+    {
+      "index": 658,
+      "offset": 13346,
+      "tag": 70,
+      "value": 1353468831,
+      "status": "candidate"
+    },
+    {
+      "index": 659,
+      "offset": 144660,
+      "tag": 170,
+      "length": 3,
+      "hex": "01481f",
+      "captures": [
+        [
+          0,
+          32,
+          18
+        ]
+      ],
+      "remaining_hex": "",
+      "status": "candidate"
+    },
+    {
+      "index": 660,
+      "offset": 90718,
+      "tag": 113,
+      "length": 4,
+      "hex": "77726170",
+      "utf8": "wrap",
+      "status": "candidate"
+    },
+    {
+      "index": 661,
+      "offset": 142632,
+      "tag": 113,
+      "length": 3,
+      "hex": "6c656e",
+      "utf8": "len",
+      "status": "candidate"
+    },
+    {
+      "index": 662,
+      "offset": 142650,
+      "tag": 237,
+      "value": 2846468521,
+      "status": "candidate"
+    },
+    {
+      "index": 663,
+      "offset": 9461,
+      "tag": 113,
+      "length": 4,
+      "hex": "77686174",
+      "utf8": "what",
+      "status": "candidate"
+    },
+    {
+      "index": 664,
+      "offset": 19166,
+      "tag": 169,
+      "value": -4,
+      "status": "candidate"
+    },
+    {
+      "index": 665,
+      "offset": 11241,
+      "tag": 70,
+      "value": 387140733,
+      "status": "candidate"
+    },
+    {
+      "index": 666,
+      "offset": 9081,
+      "tag": 70,
+      "value": 1897835763,
+      "status": "candidate"
+    },
+    {
+      "index": 667,
+      "offset": 9266,
+      "tag": 113,
+      "length": 3,
+      "hex": "5b435d",
+      "utf8": "[C]",
+      "status": "candidate"
+    },
+    {
+      "index": 668,
+      "offset": 90894,
+      "tag": 184,
+      "status": "unresolved",
+      "reason": "unsupported constant tag 184 at index 668"
+    },
+    {
+      "index": 669,
+      "offset": 142442,
+      "tag": 242,
+      "value": 9,
+      "status": "candidate"
+    },
+    {
+      "index": 670,
+      "offset": 9856,
+      "tag": 184,
+      "status": "unresolved",
+      "reason": "unsupported constant tag 184 at index 670"
+    },
+    {
+      "index": 671,
+      "offset": 143221,
+      "tag": 70,
+      "value": 610999279,
+      "status": "candidate"
+    },
+    {
+      "index": 672,
+      "offset": 132436,
+      "tag": 70,
+      "value": 283709851,
+      "status": "candidate"
+    },
+    {
+      "index": 673,
+      "offset": 16689,
+      "tag": 113,
+      "length": 5,
+      "hex": "636c6f7365",
+      "utf8": "close",
+      "status": "candidate"
+    },
+    {
+      "index": 674,
+      "offset": 132482,
+      "tag": 113,
+      "length": 46,
+      "hex": "3a3135333a20617474656d707420746f20676574206c656e677468206f66206120626f6f6c65616e2076616c7565",
+      "utf8": ":153: attempt to get length of a boolean value",
+      "status": "candidate"
+    },
+    {
+      "index": 675,
+      "offset": 132583,
+      "tag": 113,
+      "length": 4,
+      "hex": "66696e64",
+      "utf8": "find",
+      "status": "candidate"
+    },
+    {
+      "index": 676,
+      "offset": 166817,
+      "tag": 113,
+      "length": 8,
+      "hex": "66756e6374696f6e",
+      "utf8": "function",
+      "status": "candidate"
+    },
+    {
+      "index": 677,
+      "offset": 236582646,
+      "status": "unresolved_offset"
+    },
+    {
+      "index": 678,
+      "offset": 144747,
+      "tag": 237,
+      "value": 2734676636,
+      "status": "candidate"
+    },
+    {
+      "index": 679,
+      "offset": 165349,
+      "tag": 70,
+      "value": 557253415,
+      "status": "candidate"
+    },
+    {
+      "index": 680,
+      "offset": 9183,
+      "tag": 113,
+      "length": 5,
+      "hex": "7969656c64",
+      "utf8": "yield",
+      "status": "candidate"
+    },
+    {
+      "index": 681,
+      "offset": 166929,
+      "tag": 184,
+      "status": "unresolved",
+      "reason": "unsupported constant tag 184 at index 681"
+    },
+    {
+      "index": 682,
+      "offset": 13369,
+      "tag": 113,
+      "length": 7,
+      "hex": "566563746f7233",
+      "utf8": "Vector3",
+      "status": "candidate"
+    },
+    {
+      "index": 683,
+      "offset": 236632186,
+      "status": "unresolved_offset"
+    },
+    {
+      "index": 684,
+      "offset": 144770,
+      "tag": 70,
+      "value": 857760878,
+      "status": "candidate"
+    },
+    {
+      "index": 685,
+      "offset": 20516,
+      "tag": 113,
+      "length": 8,
+      "hex": "7772697465753136",
+      "utf8": "writeu16",
+      "status": "candidate"
+    },
+    {
+      "index": 686,
+      "offset": 9030,
+      "tag": 237,
+      "value": 3683508124,
+      "status": "candidate"
+    },
+    {
+      "index": 687,
+      "offset": 13427,
+      "tag": 184,
+      "status": "unresolved",
+      "reason": "unsupported constant tag 184 at index 687"
+    },
+    {
+      "index": 688,
+      "offset": 142903,
+      "tag": 70,
+      "value": 1516669156,
+      "status": "candidate"
+    },
+    {
+      "index": 689,
+      "offset": 12225,
+      "tag": 113,
+      "length": 5,
+      "hex": "6d61746368",
+      "utf8": "match",
+      "status": "candidate"
+    },
+    {
+      "index": 690,
+      "offset": 19130,
+      "tag": 113,
+      "length": 8,
+      "hex": "746f737472696e67",
+      "utf8": "tostring",
+      "status": "candidate"
+    },
+    {
+      "index": 691,
+      "offset": 829,
+      "tag": 218,
+      "bits_hex": "3f4d77d9198dec3f",
+      "value": 0.8922242400534869,
+      "classification": "finite",
+      "status": "candidate"
+    },
+    {
+      "index": 692,
+      "offset": 157522,
+      "tag": 218,
+      "bits_hex": "52d670063ca9edbf",
+      "value": -0.9269085050388617,
+      "classification": "finite",
+      "status": "candidate"
+    },
+    {
+      "index": 693,
+      "offset": 12244,
+      "tag": 113,
+      "length": 4,
+      "hex": "62616e64",
+      "utf8": "band",
+      "status": "candidate"
+    },
+    {
+      "index": 694,
+      "offset": 141965,
+      "tag": 113,
+      "length": 13,
+      "hex": "4d6f7573654265686176696f72",
+      "utf8": "MouseBehavior",
+      "status": "candidate"
+    },
+    {
+      "index": 695,
+      "offset": 20711,
+      "tag": 113,
+      "length": 1,
+      "hex": "39",
+      "utf8": "9",
+      "status": "candidate"
+    },
+    {
+      "index": 696,
+      "offset": 166830,
+      "tag": 70,
+      "value": 1940816863,
+      "status": "candidate"
+    },
+    {
+      "index": 697,
+      "offset": 13378,
+      "tag": 167,
+      "value": -0.27957963943481445,
+      "bits_hex": "10258fbe",
+      "classification": "finite",
+      "status": "candidate"
+    },
+    {
+      "index": 698,
+      "offset": 166791,
+      "tag": 113,
+      "length": 12,
+      "hex": "57616974466f724368696c64",
+      "utf8": "WaitForChild",
+      "status": "candidate"
+    },
+    {
+      "index": 699,
+      "offset": 236588736,
+      "status": "unresolved_offset"
+    },
+    {
+      "index": 700,
+      "offset": 143055,
+      "tag": 237,
+      "value": 2778298140,
+      "status": "candidate"
+    },
+    {
+      "index": 701,
+      "offset": 266,
+      "tag": 184,
+      "status": "unresolved",
+      "reason": "unsupported constant tag 184 at index 701"
+    },
+    {
+      "index": 702,
+      "offset": 16713,
+      "tag": 218,
+      "bits_hex": "f4101e08eb65e43f",
+      "value": 0.6374411734145995,
+      "classification": "finite",
+      "status": "candidate"
+    },
+    {
+      "index": 703,
+      "offset": 12772,
+      "tag": 237,
+      "value": 3298628996,
+      "status": "candidate"
+    },
+    {
+      "index": 704,
+      "offset": 7830,
+      "tag": 218,
+      "bits_hex": "21e75d7a6c31ef3f",
+      "value": 0.9747831716515273,
+      "classification": "finite",
+      "status": "candidate"
+    },
+    {
+      "index": 705,
+      "offset": 9502,
+      "tag": 170,
+      "length": 6,
+      "hex": "052f17212529",
+      "captures": [
+        [
+          3,
+          9644,
+          11
+        ],
+        [
+          3,
+          9644,
+          5
+        ],
+        [
+          1,
+          9644,
+          8
+        ],
+        [
+          1,
+          9644,
+          9
+        ],
+        [
+          1,
+          9644,
+          10
+        ]
+      ],
+      "remaining_hex": "",
+      "status": "candidate"
+    },
+    {
+      "index": 706,
+      "offset": 144829,
+      "tag": 218,
+      "bits_hex": "2fde72324dcbe93f",
+      "value": 0.8060670838667131,
+      "classification": "finite",
+      "status": "candidate"
+    },
+    {
+      "index": 707,
+      "offset": 838,
+      "tag": 165,
+      "status": "unresolved",
+      "reason": "unsupported constant tag 165 at index 707"
+    },
+    {
+      "index": 708,
+      "offset": 144827,
+      "tag": 169,
+      "value": -8,
+      "status": "candidate"
+    },
+    {
+      "index": 709,
+      "offset": 142722,
+      "tag": 113,
+      "length": 8,
+      "hex": "6973766172617267",
+      "utf8": "isvararg",
+      "status": "candidate"
+    },
+    {
+      "index": 710,
+      "offset": 142984,
+      "tag": 113,
+      "length": 6,
+      "hex": "726177736574",
+      "utf8": "rawset",
+      "status": "candidate"
+    },
+    {
+      "index": 711,
+      "offset": 77,
+      "tag": 113,
+      "length": 19,
+      "hex": "566563746f72546f4f626a6563745370616365",
+      "utf8": "VectorToObjectSpace",
+      "status": "candidate"
+    },
+    {
+      "index": 712,
+      "offset": 132589,
+      "tag": 113,
+      "length": 6,
+      "hex": "434672616d65",
+      "utf8": "CFrame",
+      "status": "candidate"
+    },
+    {
+      "index": 713,
+      "offset": 824,
+      "tag": 237,
+      "value": 3895096144,
+      "status": "candidate"
+    },
+    {
+      "index": 714,
+      "offset": 140143,
+      "tag": 70,
+      "value": 1446526242,
+      "status": "candidate"
+    },
+    {
+      "index": 715,
+      "offset": 20510,
+      "tag": 108,
+      "status": "unresolved",
+      "reason": "unsupported constant tag 108 at index 715"
+    },
+    {
+      "index": 716,
+      "offset": 9076,
+      "tag": 237,
+      "value": 3565814728,
+      "status": "candidate"
+    },
+    {
+      "index": 717,
+      "offset": 9287,
+      "tag": 70,
+      "value": 666768363,
+      "status": "candidate"
+    },
+    {
+      "index": 718,
+      "offset": 90746,
+      "tag": 113,
+      "length": 4,
+      "hex": "6e657874",
+      "utf8": "next",
+      "status": "candidate"
+    },
+    {
+      "index": 719,
+      "offset": 11305,
+      "tag": 237,
+      "value": 2860935360,
+      "status": "candidate"
+    },
+    {
+      "index": 720,
+      "offset": 19319,
+      "tag": 184,
+      "status": "unresolved",
+      "reason": "unsupported constant tag 184 at index 720"
+    },
+    {
+      "index": 721,
+      "offset": 144713,
+      "tag": 170,
+      "length": 13,
+      "hex": "06867f865f841b841f86738703",
+      "captures": [
+        [
+          3,
+          9644,
+          223
+        ],
+        [
+          3,
+          9644,
+          215
+        ],
+        [
+          3,
+          9644,
+          134
+        ],
+        [
+          3,
+          9644,
+          135
+        ],
+        [
+          3,
+          9644,
+          220
+        ],
+        [
+          3,
+          9644,
+          224
+        ]
+      ],
+      "remaining_hex": "",
+      "status": "candidate"
+    },
+    {
+      "index": 722,
+      "offset": 9278,
+      "tag": 113,
+      "length": 7,
+      "hex": "72656164693136",
+      "utf8": "readi16",
+      "status": "candidate"
+    },
+    {
+      "index": 723,
+      "offset": 115986,
+      "tag": 237,
+      "value": 3479278684,
+      "status": "candidate"
+    },
+    {
+      "index": 724,
+      "offset": 144817,
+      "tag": 70,
+      "value": 1417780575,
+      "status": "candidate"
+    },
+    {
+      "index": 725,
+      "offset": 9497,
+      "tag": 237,
+      "value": 3808024787,
+      "status": "candidate"
+    },
+    {
+      "index": 726,
+      "offset": 9490,
+      "tag": 167,
+      "value": 0.800000011920929,
+      "bits_hex": "cdcc4c3f",
+      "classification": "finite",
+      "status": "candidate"
+    },
+    {
+      "index": 727,
+      "offset": 89789,
+      "tag": 184,
+      "status": "unresolved",
+      "reason": "unsupported constant tag 184 at index 727"
+    },
+    {
+      "index": 728,
+      "offset": 120796,
+      "tag": 167,
+      "value": 0.0625,
+      "bits_hex": "0000803d",
+      "classification": "finite",
+      "status": "candidate"
+    },
+    {
+      "index": 729,
+      "offset": 157474,
+      "tag": 237,
+      "value": 3932163711,
+      "status": "candidate"
+    },
+    {
+      "index": 730,
+      "offset": 171121,
+      "tag": 70,
+      "value": 1331824567,
+      "status": "candidate"
+    },
+    {
+      "index": 731,
+      "offset": 126518,
+      "tag": 184,
+      "status": "unresolved",
+      "reason": "unsupported constant tag 184 at index 731"
+    },
+    {
+      "index": 732,
+      "offset": 120845,
+      "tag": 237,
+      "value": 3871204111,
+      "status": "candidate"
+    },
+    {
+      "index": 733,
+      "offset": 115943,
+      "tag": 70,
+      "value": 999235998,
+      "status": "candidate"
+    },
+    {
+      "index": 734,
+      "offset": 9467,
+      "tag": 113,
+      "length": 9,
+      "hex": "446174614d6f64656c",
+      "utf8": "DataModel",
+      "status": "candidate"
+    },
+    {
+      "index": 735,
+      "offset": 137371,
+      "tag": 70,
+      "value": 744225035,
+      "status": "candidate"
+    },
+    {
+      "index": 736,
+      "offset": 90815,
+      "tag": 70,
+      "value": 1910381019,
+      "status": "candidate"
+    },
+    {
+      "index": 737,
+      "offset": 236541944,
+      "status": "unresolved_offset"
+    },
+    {
+      "index": 738,
+      "offset": 142781,
+      "tag": 170,
+      "length": 27,
+      "hex": "0d865f841f841b842387078417867786738413867b8703866f8667",
+      "captures": [
+        [
+          3,
+          9644,
+          215
+        ],
+        [
+          3,
+          9644,
+          135
+        ],
+        [
+          3,
+          9644,
+          134
+        ],
+        [
+          3,
+          9644,
+          136
+        ],
+        [
+          3,
+          9644,
+          225
+        ],
+        [
+          3,
+          9644,
+          133
+        ],
+        [
+          3,
+          9644,
+          221
+        ],
+        [
+          3,
+          9644,
+          220
+        ],
+        [
+          3,
+          9644,
+          132
+        ],
+        [
+          3,
+          9644,
+          222
+        ],
+        [
+          3,
+          9644,
+          224
+        ],
+        [
+          3,
+          9644,
+          219
+        ],
+        [
+          3,
+          9644,
+          217
+        ]
+      ],
+      "remaining_hex": "",
+      "status": "candidate"
+    },
+    {
+      "index": 739,
+      "offset": 137436,
+      "tag": 218,
+      "bits_hex": "181e2e93cc11c0bf",
+      "value": -0.12554318605928994,
+      "classification": "finite",
+      "status": "candidate"
+    },
+    {
+      "index": 740,
+      "offset": 142893,
+      "tag": 113,
+      "length": 8,
+      "hex": "7772697465693136",
+      "utf8": "writei16",
+      "status": "candidate"
+    },
+    {
+      "index": 741,
+      "offset": 809,
+      "tag": 70,
+      "value": 1063348955,
+      "status": "candidate"
+    },
+    {
+      "index": 742,
+      "offset": 142923,
+      "tag": 195,
+      "value": -8345,
+      "status": "candidate"
+    },
+    {
+      "index": 743,
+      "offset": 137033,
+      "tag": 169,
+      "value": -109,
+      "status": "candidate"
+    },
+    {
+      "index": 744,
+      "offset": 140128,
+      "tag": 113,
+      "length": 1,
+      "hex": "6d",
+      "utf8": "m",
+      "status": "candidate"
+    },
+    {
+      "index": 745,
+      "offset": 120817,
+      "tag": 70,
+      "value": 578369206,
+      "status": "candidate"
+    },
+    {
+      "index": 746,
+      "offset": 165205,
+      "tag": 113,
+      "length": 1,
+      "hex": "34",
+      "utf8": "4",
+      "status": "candidate"
+    },
+    {
+      "index": 747,
+      "offset": 16707,
+      "tag": 113,
+      "length": 4,
+      "hex": "696e666f",
+      "utf8": "info",
+      "status": "candidate"
+    },
+    {
+      "index": 748,
+      "offset": 8100,
+      "tag": 113,
+      "length": 6,
+      "hex": "52616e646f6d",
+      "utf8": "Random",
+      "status": "candidate"
+    },
+    {
+      "index": 749,
+      "offset": 166717,
+      "tag": 70,
+      "value": 1396635522,
+      "status": "candidate"
+    },
+    {
+      "index": 750,
+      "offset": 166711,
+      "tag": 113,
+      "length": 2,
+      "hex": "736c",
+      "utf8": "sl",
+      "status": "candidate"
+    },
+    {
+      "index": 751,
+      "offset": 9385,
+      "tag": 218,
+      "bits_hex": "c0e1bca93e7bc0bf",
+      "value": -0.12876113212565876,
+      "classification": "finite",
+      "status": "candidate"
+    },
+    {
+      "index": 752,
+      "offset": 19252,
+      "tag": 237,
+      "value": 3507846936,
+      "status": "candidate"
+    },
+    {
+      "index": 753,
+      "offset": 95096,
+      "tag": 167,
+      "value": 0.3333333432674408,
+      "bits_hex": "abaaaa3e",
+      "classification": "finite",
+      "status": "candidate"
+    },
+    {
+      "index": 754,
+      "offset": 142882,
+      "tag": 70,
+      "value": 1897835762,
+      "status": "candidate"
+    },
+    {
+      "index": 755,
+      "offset": 16672,
+      "tag": 237,
+      "value": 2658549463,
+      "status": "candidate"
+    },
+    {
+      "index": 756,
+      "offset": 19281,
+      "tag": 70,
+      "value": 410301351,
+      "status": "candidate"
+    },
+    {
+      "index": 757,
+      "offset": 22447,
+      "tag": 237,
+      "value": 3350611522,
+      "status": "candidate"
+    },
+    {
+      "index": 758,
+      "offset": 0,
+      "tag": 70,
+      "value": 866593612,
+      "status": "candidate"
+    },
+    {
+      "index": 759,
+      "offset": 19198,
+      "tag": 192,
+      "status": "unresolved",
+      "reason": "unsupported constant tag 192 at index 759"
+    },
+    {
+      "index": 760,
+      "offset": 20562,
+      "tag": 113,
+      "length": 6,
+      "hex": "617373657274",
+      "utf8": "assert",
+      "status": "candidate"
+    },
+    {
+      "index": 761,
+      "offset": 157407,
+      "tag": 113,
+      "length": 1,
+      "hex": "44",
+      "utf8": "D",
+      "status": "candidate"
+    },
+    {
+      "index": 762,
+      "offset": 144874,
+      "tag": 218,
+      "bits_hex": "f403000000206440",
+      "value": 161.00000000002876,
+      "classification": "finite",
+      "status": "candidate"
+    },
+    {
+      "index": 763,
+      "offset": 141925,
+      "tag": 70,
+      "value": 2098299645,
+      "status": "candidate"
+    },
+    {
+      "index": 764,
+      "offset": 21,
+      "tag": 237,
+      "value": 2634154227,
+      "status": "candidate"
+    },
+    {
+      "index": 765,
+      "offset": 733,
+      "tag": 218,
+      "bits_hex": "5eda69bd4115e83f",
+      "value": 0.7525948237878983,
+      "classification": "finite",
+      "status": "candidate"
+    },
+    {
+      "index": 766,
+      "offset": 166812,
+      "tag": 70,
+      "value": 1010580540,
+      "status": "candidate"
+    },
+    {
+      "index": 767,
+      "offset": 143138,
+      "tag": 237,
+      "value": 3461851812,
+      "status": "candidate"
+    },
+    {
+      "index": 768,
+      "offset": 142732,
+      "tag": 237,
+      "value": 2742839229,
+      "status": "candidate"
+    },
+    {
+      "index": 769,
+      "offset": 142512,
+      "tag": 170,
+      "length": 23,
+      "hex": "0b865b825b8413841f841b86538657836f833f8377837b",
+      "captures": [
+        [
+          3,
+          9644,
+          214
+        ],
+        [
+          3,
+          9644,
+          86
+        ],
+        [
+          3,
+          9644,
+          132
+        ],
+        [
+          3,
+          9644,
+          135
+        ],
+        [
+          3,
+          9644,
+          134
+        ],
+        [
+          3,
+          9644,
+          212
+        ],
+        [
+          3,
+          9644,
+          213
+        ],
+        [
+          3,
+          9644,
+          123
+        ],
+        [
+          3,
+          9644,
+          111
+        ],
+        [
+          3,
+          9644,
+          125
+        ],
+        [
+          3,
+          9644,
+          126
+        ]
+      ],
+      "remaining_hex": "",
+      "status": "candidate"
+    },
+    {
+      "index": 770,
+      "offset": 11310,
+      "tag": 192,
+      "status": "unresolved",
+      "reason": "unsupported constant tag 192 at index 770"
+    },
+    {
+      "index": 771,
+      "offset": 20703,
+      "tag": 113,
+      "length": 6,
+      "hex": "726561647538",
+      "utf8": "readu8",
+      "status": "candidate"
+    },
+    {
+      "index": 772,
+      "offset": 142997,
+      "tag": 237,
+      "value": 3311149824,
+      "status": "candidate"
+    },
+    {
+      "index": 773,
+      "offset": 12859,
+      "tag": 113,
+      "length": 5,
+      "hex": "43726f7373",
+      "utf8": "Cross",
+      "status": "candidate"
+    },
+    {
+      "index": 774,
+      "offset": 57,
+      "tag": 237,
+      "value": 4092851187,
+      "status": "candidate"
+    },
+    {
+      "index": 775,
+      "offset": 165272,
+      "tag": 169,
+      "value": -3,
+      "status": "candidate"
+    },
+    {
+      "index": 776,
+      "offset": 9495,
+      "tag": 242,
+      "value": 137,
+      "status": "candidate"
+    },
+    {
+      "index": 777,
+      "offset": 777,
+      "tag": 70,
+      "value": 1226515404,
+      "status": "candidate"
+    },
+    {
+      "index": 778,
+      "offset": 132530,
+      "tag": 237,
+      "value": 3504437352,
+      "status": "candidate"
+    },
+    {
+      "index": 779,
+      "offset": 90820,
+      "tag": 237,
+      "value": 4093608232,
+      "status": "candidate"
+    },
+    {
+      "index": 780,
+      "offset": 236538006,
+      "status": "unresolved_offset"
+    },
+    {
+      "index": 781,
+      "offset": 136981,
+      "tag": 113,
+      "length": 15,
+      "hex": "66726f6d4f7269656e746174696f6e",
+      "utf8": "fromOrientation",
+      "status": "candidate"
+    },
+    {
+      "index": 782,
+      "offset": 95126,
+      "tag": 242,
+      "value": 199,
+      "status": "candidate"
+    },
+    {
+      "index": 783,
+      "offset": 165230,
+      "tag": 237,
+      "value": 4271567057,
+      "status": "candidate"
+    },
+    {
+      "index": 784,
+      "offset": 11206,
+      "tag": 237,
+      "value": 2977762548,
+      "status": "candidate"
+    },
+    {
+      "index": 785,
+      "offset": 9483,
+      "tag": 237,
+      "value": 3556620303,
+      "status": "candidate"
+    },
+    {
+      "index": 786,
+      "offset": 157459,
+      "tag": 113,
+      "length": 8,
+      "hex": "7772697465753332",
+      "utf8": "writeu32",
+      "status": "candidate"
+    },
+    {
+      "index": 787,
+      "offset": 142992,
+      "tag": 237,
+      "value": 3426041540,
+      "status": "candidate"
+    },
+    {
+      "index": 788,
+      "offset": 145253,
+      "tag": 218,
+      "bits_hex": "85bfd94dc46cc93f",
+      "value": 0.1986317997102526,
+      "classification": "finite",
+      "status": "candidate"
+    },
+    {
+      "index": 789,
+      "offset": 9751,
+      "tag": 237,
+      "value": 2973441040,
+      "status": "candidate"
+    },
+    {
+      "index": 790,
+      "offset": 19187,
+      "tag": 108,
+      "status": "unresolved",
+      "reason": "unsupported constant tag 108 at index 790"
+    },
+    {
+      "index": 791,
+      "offset": 140131,
+      "tag": 113,
+      "length": 5,
+      "hex": "5769647468",
+      "utf8": "Width",
+      "status": "candidate"
+    },
+    {
+      "index": 792,
+      "offset": 143282,
+      "tag": 70,
+      "value": 2001642617,
+      "status": "candidate"
+    },
+    {
+      "index": 793,
+      "offset": 849,
+      "tag": 113,
+      "length": 10,
+      "hex": "4c6f636b43656e746572",
+      "utf8": "LockCenter",
+      "status": "candidate"
+    },
+    {
+      "index": 794,
+      "offset": 9373,
+      "tag": 218,
+      "bits_hex": "2d03000000c06040",
+      "value": 134.0000000000231,
+      "classification": "finite",
+      "status": "candidate"
+    },
+    {
+      "index": 795,
+      "offset": 142640,
+      "tag": 113,
+      "length": 8,
+      "hex": "7772697465693332",
+      "utf8": "writei32",
+      "status": "candidate"
+    },
+    {
+      "index": 796,
+      "offset": 132552,
+      "tag": 113,
+      "length": 6,
+      "hex": "486569676874",
+      "utf8": "Height",
+      "status": "candidate"
+    },
+    {
+      "index": 797,
+      "offset": 15087,
+      "tag": 184,
+      "status": "unresolved",
+      "reason": "unsupported constant tag 184 at index 797"
+    },
+    {
+      "index": 798,
+      "offset": 9605,
+      "tag": 113,
+      "length": 10,
+      "hex": "44657374726f79696e67",
+      "utf8": "Destroying",
+      "status": "candidate"
+    },
+    {
+      "index": 799,
+      "offset": 140200,
+      "tag": 218,
+      "bits_hex": "b003000000006240",
+      "value": 144.00000000002683,
+      "classification": "finite",
+      "status": "candidate"
+    },
+    {
+      "index": 800,
+      "offset": 14999,
+      "tag": 70,
+      "value": 935269728,
+      "status": "candidate"
+    },
+    {
+      "index": 801,
+      "offset": 165288,
+      "tag": 70,
+      "value": 2095783348,
+      "status": "candidate"
+    },
+    {
+      "index": 802,
+      "offset": 5,
+      "tag": 237,
+      "value": 3686543154,
+      "status": "candidate"
+    },
+    {
+      "index": 803,
+      "offset": 145304,
+      "tag": 237,
+      "value": 2718462447,
+      "status": "candidate"
+    },
+    {
+      "index": 804,
+      "offset": 15014,
+      "tag": 237,
+      "value": 3654531046,
+      "status": "candidate"
+    },
+    {
+      "index": 805,
+      "offset": 8967,
+      "tag": 237,
+      "value": 2973110596,
+      "status": "candidate"
+    },
+    {
+      "index": 806,
+      "offset": 143119,
+      "tag": 237,
+      "value": 3900001385,
+      "status": "candidate"
+    },
+    {
+      "index": 807,
+      "offset": 142810,
+      "tag": 113,
+      "length": 6,
+      "hex": "7261776c656e",
+      "utf8": "rawlen",
+      "status": "candidate"
+    },
+    {
+      "index": 808,
+      "offset": 11251,
+      "tag": 113,
+      "length": 11,
+      "hex": "7772697465737472696e67",
+      "utf8": "writestring",
+      "status": "candidate"
+    },
+    {
+      "index": 809,
+      "offset": 144665,
+      "tag": 237,
+      "value": 2579851019,
+      "status": "candidate"
+    },
+    {
+      "index": 810,
+      "offset": 20547,
+      "tag": 70,
+      "value": 947433290,
+      "status": "candidate"
+    },
+    {
+      "index": 811,
+      "offset": 157410,
+      "tag": 170,
+      "length": 19,
+      "hex": "0983738353834f834b840b832b832f841b841f",
+      "captures": [
+        [
+          3,
+          9644,
+          124
+        ],
+        [
+          3,
+          9644,
+          116
+        ],
+        [
+          3,
+          9644,
+          115
+        ],
+        [
+          3,
+          9644,
+          114
+        ],
+        [
+          3,
+          9644,
+          130
+        ],
+        [
+          3,
+          9644,
+          106
+        ],
+        [
+          3,
+          9644,
+          107
+        ],
+        [
+          3,
+          9644,
+          134
+        ],
+        [
+          3,
+          9644,
+          135
+        ]
+      ],
+      "remaining_hex": "",
+      "status": "candidate"
+    },
+    {
+      "index": 812,
+      "offset": 19168,
+      "tag": 242,
+      "value": 113,
+      "status": "candidate"
+    },
+    {
+      "index": 813,
+      "offset": 90830,
+      "tag": 113,
+      "length": 13,
+      "hex": "526f746174696f6e4f72646572",
+      "utf8": "RotationOrder",
+      "status": "candidate"
+    },
+    {
+      "index": 814,
+      "offset": 9578,
+      "tag": 70,
+      "value": 1291290002,
+      "status": "candidate"
+    },
+    {
+      "index": 815,
+      "offset": 165235,
+      "tag": 237,
+      "value": 3324154023,
+      "status": "candidate"
+    },
+    {
+      "index": 816,
+      "offset": 9840,
+      "tag": 218,
+      "bits_hex": "f86e7571676ecc3f",
+      "value": 0.22211926498390944,
+      "classification": "finite",
+      "status": "candidate"
+    },
+    {
+      "index": 817,
+      "offset": 9229,
+      "tag": 237,
+      "value": 3971870091,
+      "status": "candidate"
+    },
+    {
+      "index": 818,
+      "offset": 145185,
+      "tag": 113,
+      "length": 6,
+      "hex": "636f6e636174",
+      "utf8": "concat",
+      "status": "candidate"
+    },
+    {
+      "index": 819,
+      "offset": 137431,
+      "tag": 237,
+      "value": 3347794407,
+      "status": "candidate"
+    },
+    {
+      "index": 820,
+      "offset": 166767,
+      "tag": 218,
+      "bits_hex": "e402000000806040",
+      "value": 132.00000000002103,
+      "classification": "finite",
+      "status": "candidate"
+    },
+    {
+      "index": 821,
+      "offset": 236682559,
+      "status": "unresolved_offset"
+    },
+    {
+      "index": 822,
+      "offset": 9563,
+      "tag": 237,
+      "value": 3140855028,
+      "status": "candidate"
+    },
+    {
+      "index": 823,
+      "offset": 9382,
+      "tag": 113,
+      "length": 1,
+      "hex": "4d",
+      "utf8": "M",
+      "status": "candidate"
+    },
+    {
+      "index": 824,
+      "offset": 132446,
+      "tag": 113,
+      "length": 3,
+      "hex": "726570",
+      "utf8": "rep",
+      "status": "candidate"
+    },
+    {
+      "index": 825,
+      "offset": 9220,
+      "tag": 218,
+      "bits_hex": "9e8c78d9f567da3f",
+      "value": 0.4125952361811843,
+      "classification": "finite",
+      "status": "candidate"
+    },
+    {
+      "index": 826,
+      "offset": 157556,
+      "tag": 70,
+      "value": 2047924400,
+      "status": "candidate"
+    },
+    {
+      "index": 827,
+      "offset": 19268,
+      "tag": 70,
+      "value": 1813910002,
+      "status": "candidate"
+    },
+    {
+      "index": 828,
+      "offset": 157551,
+      "tag": 237,
+      "value": 3755747310,
+      "status": "candidate"
+    },
+    {
+      "index": 829,
+      "offset": 142537,
+      "tag": 237,
+      "value": 3072968738,
+      "status": "candidate"
+    },
+    {
+      "index": 830,
+      "offset": 95172,
+      "tag": 237,
+      "value": 3683306887,
+      "status": "candidate"
+    },
+    {
+      "index": 831,
+      "offset": 142670,
+      "tag": 113,
+      "length": 26,
+      "hex": "66726f6d526f746174696f6e4265747765656e566563746f7273",
+      "utf8": "fromRotationBetweenVectors",
+      "status": "candidate"
+    },
+    {
+      "index": 832,
+      "offset": 144628,
+      "tag": 113,
+      "length": 7,
+      "hex": "67657466656e76",
+      "utf8": "getfenv",
+      "status": "candidate"
+    },
+    {
+      "index": 833,
+      "offset": 9101,
+      "tag": 237,
+      "value": 2653910388,
+      "status": "candidate"
+    },
+    {
+      "index": 834,
+      "offset": 20724,
+      "tag": 113,
+      "length": 17,
+      "hex": "506f696e74546f576f726c645370616365",
+      "utf8": "PointToWorldSpace",
+      "status": "candidate"
+    },
+    {
+      "index": 835,
+      "offset": 236540794,
+      "status": "unresolved_offset"
+    },
+    {
+      "index": 836,
+      "offset": 12824,
+      "tag": 203,
+      "kind": "Vector3",
+      "components": [
+        0.5864814519882202,
+        0.14842407405376434,
+        0.0797140970826149
+      ],
+      "bits_hex": [
+        "a623163f",
+        "7bfc173e",
+        "2541a33d"
+      ],
+      "classifications": [
+        "finite",
+        "finite",
+        "finite"
+      ],
+      "status": "candidate"
+    },
+    {
+      "index": 837,
+      "offset": 9071,
+      "tag": 70,
+      "value": 1895897034,
+      "status": "candidate"
+    },
+    {
+      "index": 838,
+      "offset": 11238,
+      "tag": 113,
+      "length": 1,
+      "hex": "38",
+      "utf8": "8",
+      "status": "candidate"
+    },
+    {
+      "index": 839,
+      "offset": 165245,
+      "tag": 165,
+      "status": "unresolved",
+      "reason": "unsupported constant tag 165 at index 839"
+    },
+    {
+      "index": 840,
+      "offset": 166672,
+      "tag": 237,
+      "value": 3461851810,
+      "status": "candidate"
+    },
+    {
+      "index": 841,
+      "offset": 236673393,
+      "status": "unresolved_offset"
+    },
+    {
+      "index": 842,
+      "offset": 145328,
+      "tag": 184,
+      "status": "unresolved",
+      "reason": "unsupported constant tag 184 at index 842"
+    },
+    {
+      "index": 843,
+      "offset": 11211,
+      "tag": 184,
+      "status": "unresolved",
+      "reason": "unsupported constant tag 184 at index 843"
+    },
+    {
+      "index": 844,
+      "offset": 12806,
+      "tag": 113,
+      "length": 1,
+      "hex": "41",
+      "utf8": "A",
+      "status": "candidate"
+    },
+    {
+      "index": 845,
+      "offset": 120814,
+      "tag": 113,
+      "length": 1,
+      "hex": "63",
+      "utf8": "c",
+      "status": "candidate"
+    },
+    {
+      "index": 846,
+      "offset": 15108,
+      "tag": 184,
+      "status": "unresolved",
+      "reason": "unsupported constant tag 184 at index 846"
+    },
+    {
+      "index": 847,
+      "offset": 7858,
+      "tag": 184,
+      "status": "unresolved",
+      "reason": "unsupported constant tag 184 at index 847"
+    },
+    {
+      "index": 848,
+      "offset": 144838,
+      "tag": 237,
+      "value": 2273540968,
+      "status": "candidate"
+    },
+    {
+      "index": 849,
+      "offset": 19209,
+      "tag": 113,
+      "length": 11,
+      "hex": "546f41786973416e676c65",
+      "utf8": "ToAxisAngle",
+      "status": "candidate"
+    },
+    {
+      "index": 850,
+      "offset": 144675,
+      "tag": 70,
+      "value": 1696035032,
+      "status": "candidate"
+    },
+    {
+      "index": 851,
+      "offset": 157497,
+      "tag": 70,
+      "value": 1166338108,
+      "status": "candidate"
+    },
+    {
+      "index": 852,
+      "offset": 236543704,
+      "status": "unresolved_offset"
+    },
+    {
+      "index": 853,
+      "offset": 166845,
+      "tag": 113,
+      "length": 7,
+      "hex": "636f756e746c7a",
+      "utf8": "countlz",
+      "status": "candidate"
+    },
+    {
+      "index": 854,
+      "offset": 19091,
+      "tag": 237,
+      "value": 2942197720,
+      "status": "candidate"
+    },
+    {
+      "index": 855,
+      "offset": 9439,
+      "tag": 113,
+      "length": 3,
+      "hex": "446f74",
+      "utf8": "Dot",
+      "status": "candidate"
+    },
+    {
+      "index": 856,
+      "offset": 132460,
+      "tag": 113,
+      "length": 6,
+      "hex": "696e73657274",
+      "utf8": "insert",
+      "status": "candidate"
+    },
+    {
+      "index": 857,
+      "offset": 13410,
+      "tag": 237,
+      "value": 2680435794,
+      "status": "candidate"
+    },
+    {
+      "index": 858,
+      "offset": 742,
+      "tag": 70,
+      "value": 1693779911,
+      "status": "candidate"
+    },
+    {
+      "index": 859,
+      "offset": 142627,
+      "tag": 113,
+      "length": 3,
+      "hex": "58595a",
+      "utf8": "XYZ",
+      "status": "candidate"
+    },
+    {
+      "index": 860,
+      "offset": 9515,
+      "tag": 113,
+      "length": 7,
+      "hex": "496e7665727365",
+      "utf8": "Inverse",
+      "status": "candidate"
+    },
+    {
+      "index": 861,
+      "offset": 143075,
+      "tag": 113,
+      "length": 4,
+      "hex": "67616d65",
+      "utf8": "game",
+      "status": "candidate"
+    },
+    {
+      "index": 862,
+      "offset": 8620,
+      "tag": 237,
+      "value": 4272295587,
+      "status": "candidate"
+    },
+    {
+      "index": 863,
+      "offset": 16722,
+      "tag": 113,
+      "length": 7,
+      "hex": "73637261746368",
+      "utf8": "scratch",
+      "status": "candidate"
+    },
+    {
+      "index": 864,
+      "offset": 12796,
+      "tag": 70,
+      "value": 1976448364,
+      "status": "candidate"
+    },
+    {
+      "index": 865,
+      "offset": 9768,
+      "tag": 237,
+      "value": 3987870712,
+      "status": "candidate"
+    },
+    {
+      "index": 866,
+      "offset": 22381,
+      "tag": 242,
+      "value": 64,
+      "status": "candidate"
+    },
+    {
+      "index": 867,
+      "offset": 90741,
+      "tag": 70,
+      "value": 1307786275,
+      "status": "candidate"
+    },
+    {
+      "index": 868,
+      "offset": 14989,
+      "tag": 70,
+      "value": 1787481843,
+      "status": "candidate"
+    },
+    {
+      "index": 869,
+      "offset": 8606,
+      "tag": 170,
+      "length": 7,
+      "hex": "038717837b871b",
+      "captures": [
+        [
+          3,
+          9644,
+          229
+        ],
+        [
+          3,
+          9644,
+          126
+        ],
+        [
+          3,
+          9644,
+          230
+        ]
+      ],
+      "remaining_hex": "",
+      "status": "candidate"
+    },
+    {
+      "index": 870,
+      "offset": 236540101,
+      "status": "unresolved_offset"
+    },
+    {
+      "index": 871,
+      "offset": 143250,
+      "tag": 113,
+      "length": 4,
+      "hex": "3d5b435d",
+      "utf8": "=[C]",
+      "status": "candidate"
+    },
+    {
+      "index": 872,
+      "offset": 157485,
+      "tag": 70,
+      "value": 1895825038,
+      "status": "candidate"
+    },
+    {
+      "index": 873,
+      "offset": 166292,
+      "tag": 242,
+      "value": 5,
+      "status": "candidate"
+    },
+    {
+      "index": 874,
+      "offset": 19242,
+      "tag": 70,
+      "value": 597189002,
+      "status": "candidate"
+    },
+    {
+      "index": 875,
+      "offset": 9510,
+      "tag": 237,
+      "value": 3138228886,
+      "status": "candidate"
+    },
+    {
+      "index": 876,
+      "offset": 236545477,
+      "status": "unresolved_offset"
+    },
+    {
+      "index": 877,
+      "offset": 9573,
+      "tag": 237,
+      "value": 4005963139,
+      "status": "candidate"
+    },
+    {
+      "index": 878,
+      "offset": 20743,
+      "tag": 237,
+      "value": 4099214501,
+      "status": "candidate"
+    },
+    {
+      "index": 879,
+      "offset": 137054,
+      "tag": 70,
+      "value": 1725699435,
+      "status": "candidate"
+    },
+    {
+      "index": 880,
+      "offset": 145318,
+      "tag": 237,
+      "value": 3131203607,
+      "status": "candidate"
+    },
+    {
+      "index": 881,
+      "offset": 9096,
+      "tag": 70,
+      "value": 1551396246,
+      "status": "candidate"
+    },
+    {
+      "index": 882,
+      "offset": 142768,
+      "tag": 203,
+      "kind": "Vector3",
+      "components": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bits_hex": [
+        "00000000",
+        "00000000",
+        "0000803f"
+      ],
+      "classifications": [
+        "finite",
+        "finite",
+        "finite"
+      ],
+      "status": "candidate"
+    },
+    {
+      "index": 883,
+      "offset": 166911,
+      "tag": 70,
+      "value": 1552128067,
+      "status": "candidate"
+    },
+    {
+      "index": 884,
+      "offset": 16682,
+      "tag": 113,
+      "length": 5,
+      "hex": "6572726f72",
+      "utf8": "error",
+      "status": "candidate"
+    },
+    {
+      "index": 885,
+      "offset": 90884,
+      "tag": 167,
+      "value": 0.5,
+      "bits_hex": "0000003f",
+      "classification": "finite",
+      "status": "candidate"
+    },
+    {
+      "index": 886,
+      "offset": 142542,
+      "tag": 113,
+      "length": 78,
+      "hex": "546865206465627567206c696272617279206973207265717569726564206f6e204c75617520706c6174666f726d732e20506c65617365206f70656e206120737570706f7274207469636b65742e",
+      "utf8": "The debug library is required on Luau platforms. Please open a support ticket.",
+      "status": "candidate"
+    },
+    {
+      "index": 887,
+      "offset": 157397,
+      "tag": 237,
+      "value": 4286139352,
+      "status": "candidate"
+    },
+    {
+      "index": 888,
+      "offset": 236661481,
+      "status": "unresolved_offset"
+    },
+    {
+      "index": 889,
+      "offset": 143212,
+      "tag": 218,
+      "bits_hex": "b89dcff90e85ba3f",
+      "value": 0.10359281157399536,
+      "classification": "finite",
+      "status": "candidate"
+    },
+    {
+      "index": 890,
+      "offset": 143012,
+      "tag": 113,
+      "length": 9,
+      "hex": "777269746562697473",
+      "utf8": "writebits",
+      "status": "candidate"
+    },
+    {
+      "index": 891,
+      "offset": 144655,
+      "tag": 237,
+      "value": 2194702710,
+      "status": "candidate"
+    },
+    {
+      "index": 892,
+      "offset": 630,
+      "tag": 70,
+      "value": 1383005166,
+      "status": "candidate"
+    },
+    {
+      "index": 893,
+      "offset": 19086,
+      "tag": 237,
+      "value": 3245224957,
+      "status": "candidate"
+    },
+    {
+      "index": 894,
+      "offset": 12809,
+      "tag": 237,
+      "value": 3441831528,
+      "status": "candidate"
+    },
+    {
+      "index": 895,
+      "offset": 140138,
+      "tag": 237,
+      "value": 3245224955,
+      "status": "candidate"
+    },
+    {
+      "index": 896,
+      "offset": 8650,
+      "tag": 237,
+      "value": 2803987838,
+      "status": "candidate"
+    },
+    {
+      "index": 897,
+      "offset": 144912,
+      "tag": 237,
+      "value": 2954666644,
+      "status": "candidate"
+    },
+    {
+      "index": 898,
+      "offset": 90859,
+      "tag": 70,
+      "value": 939689960,
+      "status": "candidate"
+    },
+    {
+      "index": 899,
+      "offset": 236671656,
+      "status": "unresolved_offset"
+    },
+    {
+      "index": 900,
+      "offset": 12777,
+      "tag": 70,
+      "value": 618905760,
+      "status": "candidate"
+    },
+    {
+      "index": 901,
+      "offset": 132602,
+      "tag": 108,
+      "status": "unresolved",
+      "reason": "unsupported constant tag 108 at index 901"
+    },
+    {
+      "index": 902,
+      "offset": 11191,
+      "tag": 242,
+      "value": 17,
+      "status": "candidate"
+    },
+    {
+      "index": 903,
+      "offset": 145224,
+      "tag": 113,
+      "length": 4,
+      "hex": "74797065",
+      "utf8": "type",
+      "status": "candidate"
+    },
+    {
+      "index": 904,
+      "offset": 90752,
+      "tag": 70,
+      "value": 853135767,
+      "status": "candidate"
+    },
+    {
+      "index": 905,
+      "offset": 16559,
+      "tag": 70,
+      "value": 673877377,
+      "status": "candidate"
+    },
+    {
+      "index": 906,
+      "offset": 16540,
+      "tag": 113,
+      "length": 9,
+      "hex": "6c6f6f6b416c6f6e67",
+      "utf8": "lookAlong",
+      "status": "candidate"
+    },
+    {
+      "index": 907,
+      "offset": 144592,
+      "tag": 113,
+      "length": 7,
+      "hex": "6e706172616d73",
+      "utf8": "nparams",
+      "status": "candidate"
+    }
+  ],
+  "limitations": "Candidates only: prior decryption, cache state and reachability are unproven."
+}

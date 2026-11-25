@@ -1,0 +1,61 @@
+{
+  "_provenance": {
+    "generator": "CodeRabbit",
+    "version": 1
+  },
+  "input_sha256": {
+    "buffer": "def85a43e055c6caf99ff7512846126456e3f0a6880987a7a55550219bbf8178",
+    "table": "9d33c3c8197c88f63f06a5445b856df70eb34778b6b6f6950ab0837835911245"
+  },
+  "constants": [
+    {
+      "index": 364,
+      "offset": 9544,
+      "tag": 113,
+      "length": 7,
+      "hex": "73657466656e76",
+      "utf8": "setfenv"
+    },
+    {
+      "index": 410,
+      "offset": 143033,
+      "tag": 113,
+      "length": 6,
+      "hex": "73656c656374",
+      "utf8": "select"
+    },
+    {
+      "index": 549,
+      "offset": 143274,
+      "tag": 113,
+      "length": 6,
+      "hex": "787063616c6c",
+      "utf8": "xpcall"
+    },
+    {
+      "index": 613,
+      "offset": 9306,
+      "tag": 113,
+      "length": 6,
+      "hex": "726177676574",
+      "utf8": "rawget"
+    },
+    {
+      "index": 710,
+      "offset": 142984,
+      "tag": 113,
+      "length": 6,
+      "hex": "726177736574",
+      "utf8": "rawset"
+    },
+    {
+      "index": 760,
+      "offset": 20562,
+      "tag": 113,
+      "length": 6,
+      "hex": "617373657274",
+      "utf8": "assert"
+    }
+  ],
+  "limitations": "Only tags 31, 70, 113, 169, 170, 237 and 242 are implemented; the indices and input mutations are external static hypotheses."
+}

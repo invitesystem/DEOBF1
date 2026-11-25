@@ -23,19 +23,19 @@ def patch(arrays: dict[str, list[int]], pc: int, seed: int, mode: str = 'E201') 
     at = pc - 1
     opcode_field = {'Z95': 'G', 'Z240': 'p'}.get(mode, 'g')
     opcode = arrays[opcode_field][at]
-    expected = {'E201': (59, 119), 'Z250': (35, 49, 83), 'Z95': (75, 100, 121), 'Z240': (93,)}[mode]
+    expected = {'E201': (59, 119, 170), 'Z250': (35, 49, 83), 'Z95': (75, 100, 121), 'Z240': (0, 93, 177)}[mode]
     if opcode not in expected:
         raise ValueError('unexpected opcode for dispatcher at program counter')
-    direct = (mode, opcode) in (('Z250', 49), ('Z95', 121), ('Z240', 93))
-    start_field = {('Z250', 49): 'p', ('Z95', 121): 'B'}.get((mode, opcode),
+    direct = (mode, opcode) in (('E201', 170), ('Z250', 49), ('Z95', 121), ('Z240', 93))
+    start_field = {('E201', 170): 'G', ('Z250', 49): 'p', ('Z95', 121): 'B'}.get((mode, opcode),
         {'E201': 'B', 'Z250': 'G', 'Z95': 'p', 'Z240': 'G'}[mode])
-    count_field = {('Z250', 49): 'B', ('Z95', 121): 'g'}.get((mode, opcode),
+    count_field = {('E201', 170): 'B', ('Z250', 49): 'B', ('Z95', 121): 'g', ('Z240', 0): 'B', ('Z240', 177): 'B'}.get((mode, opcode),
         {'Z95': 'B', 'Z240': 'g'}.get(mode, 'p'))
     start = arrays[start_field][at] + 1  # Lua's one-based PC
     count = arrays[count_field][at]
     if count and (start < 1 or any(start + count - 1 > len(values) for values in arrays.values())):
         raise ValueError('rewrite range outside arrays')
-    state_field = {('Z250', 49): 'G', ('Z95', 121): 'p'}.get((mode, opcode),
+    state_field = {('E201', 170): 'p', ('Z250', 49): 'G', ('Z95', 121): 'p', ('Z240', 0): 'g', ('Z240', 177): 'g'}.get((mode, opcode),
         {'E201': 'G', 'Z250': 'B', 'Z95': 'g', 'Z240': 'B'}[mode])
     state = arrays[state_field][at]
     if not direct:

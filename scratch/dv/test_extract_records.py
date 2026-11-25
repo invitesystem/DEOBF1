@@ -36,6 +36,14 @@ class RecordExtractionTest(unittest.TestCase):
         self.assertEqual(result, bytes([0, 3, 19, 16, 17]))
         self.assertEqual(offsets, [0])
 
+    def test_e201_direct_key_and_index(self):
+        arrays = {'g': [172], 'G': [0], 'B': [18], 'p': [1]}
+        result, offsets, _ = extract(bytes([0, 3, 1, 2, 3]), [236682589], arrays, [1], 0, 0)
+        self.assertEqual(result, bytes([0, 3, 19, 16, 17]))
+        self.assertEqual(offsets, [0])
+        with self.assertRaises(ValueError):
+            extract(bytes([0, 3, 1, 2, 3]), [236682589], {'g': [172], 'G': [0], 'B': [18]}, [1], 0, 0)
+
 
 if __name__ == '__main__':
     unittest.main()

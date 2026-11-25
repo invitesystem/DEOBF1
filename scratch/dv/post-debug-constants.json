@@ -1,0 +1,339 @@
+{
+  "_provenance": {
+    "generator": "CodeRabbit",
+    "version": 1
+  },
+  "input_sha256": {
+    "buffer": "a009ebae0b4978b53a0afded1c7567c86720943f341a75d046eb68275c3e8389",
+    "table": "e47bd38fdc7fff1dfae6254339ef38326fb7ce7763ca480561555ceb44eb8a30"
+  },
+  "constants": [
+    {
+      "index": 3,
+      "offset": 142458,
+      "tag": 113,
+      "length": 0,
+      "hex": "",
+      "utf8": ""
+    },
+    {
+      "index": 4,
+      "offset": 15004,
+      "tag": 113,
+      "length": 3,
+      "hex": "6e6577",
+      "utf8": "new"
+    },
+    {
+      "index": 10,
+      "offset": 120850,
+      "tag": 169,
+      "value": -1
+    },
+    {
+      "index": 45,
+      "offset": 165425,
+      "tag": 31,
+      "value": false
+    },
+    {
+      "index": 84,
+      "offset": 166715,
+      "tag": 31,
+      "value": true
+    },
+    {
+      "index": 97,
+      "offset": 16583,
+      "tag": 170,
+      "length": 1,
+      "hex": "00",
+      "captures": [],
+      "remaining_hex": ""
+    },
+    {
+      "index": 110,
+      "offset": 157575,
+      "tag": 113,
+      "length": 20,
+      "hex": "6d6174685f666c6f6f725f707265636973696f6e",
+      "utf8": "math_floor_precision"
+    },
+    {
+      "index": 137,
+      "offset": 144851,
+      "tag": 113,
+      "length": 12,
+      "hex": "6765746d6574617461626c65",
+      "utf8": "getmetatable"
+    },
+    {
+      "index": 177,
+      "offset": 142935,
+      "tag": 113,
+      "length": 18,
+      "hex": "506174683244436f6e74726f6c506f696e74",
+      "utf8": "Path2DControlPoint"
+    },
+    {
+      "index": 231,
+      "offset": 165311,
+      "tag": 170,
+      "length": 5,
+      "hex": "02864f837b",
+      "captures": [
+        [
+          3,
+          9644,
+          211
+        ],
+        [
+          3,
+          9644,
+          126
+        ]
+      ],
+      "remaining_hex": ""
+    },
+    {
+      "index": 296,
+      "offset": 137006,
+      "tag": 113,
+      "length": 15,
+      "hex": "6c6173746c696e65646566696e6564",
+      "utf8": "lastlinedefined"
+    },
+    {
+      "index": 332,
+      "offset": 145193,
+      "tag": 170,
+      "length": 9,
+      "hex": "048263836f833f8377",
+      "captures": [
+        [
+          3,
+          9644,
+          88
+        ],
+        [
+          3,
+          9644,
+          123
+        ],
+        [
+          3,
+          9644,
+          111
+        ],
+        [
+          3,
+          9644,
+          125
+        ]
+      ],
+      "remaining_hex": ""
+    },
+    {
+      "index": 397,
+      "offset": 165293,
+      "tag": 113,
+      "length": 11,
+      "hex": "63757272656e746c696e65",
+      "utf8": "currentline"
+    },
+    {
+      "index": 411,
+      "offset": 142501,
+      "tag": 113,
+      "length": 9,
+      "hex": "74726163656261636b",
+      "utf8": "traceback"
+    },
+    {
+      "index": 426,
+      "offset": 137376,
+      "tag": 170,
+      "length": 11,
+      "hex": "05837b836f833f8377823f",
+      "captures": [
+        [
+          3,
+          9644,
+          126
+        ],
+        [
+          3,
+          9644,
+          123
+        ],
+        [
+          3,
+          9644,
+          111
+        ],
+        [
+          3,
+          9644,
+          125
+        ],
+        [
+          3,
+          9644,
+          79
+        ]
+      ],
+      "remaining_hex": ""
+    },
+    {
+      "index": 441,
+      "offset": 656,
+      "tag": 113,
+      "length": 8,
+      "hex": "746f6e756d626572",
+      "utf8": "tonumber"
+    },
+    {
+      "index": 528,
+      "offset": 16564,
+      "tag": 113,
+      "length": 12,
+      "hex": "7365746d6574617461626c65",
+      "utf8": "setmetatable"
+    },
+    {
+      "index": 533,
+      "offset": 144685,
+      "tag": 113,
+      "length": 9,
+      "hex": "73686f72745f737263",
+      "utf8": "short_src"
+    },
+    {
+      "index": 566,
+      "offset": 9594,
+      "tag": 170,
+      "length": 9,
+      "hex": "04836f833f83778343",
+      "captures": [
+        [
+          3,
+          9644,
+          123
+        ],
+        [
+          3,
+          9644,
+          111
+        ],
+        [
+          3,
+          9644,
+          125
+        ],
+        [
+          3,
+          9644,
+          112
+        ]
+      ],
+      "remaining_hex": ""
+    },
+    {
+      "index": 581,
+      "offset": 9116,
+      "tag": 113,
+      "length": 6,
+      "hex": "736f75726365",
+      "utf8": "source"
+    },
+    {
+      "index": 591,
+      "offset": 782,
+      "tag": 113,
+      "length": 8,
+      "hex": "6e616d6577686174",
+      "utf8": "namewhat"
+    },
+    {
+      "index": 593,
+      "offset": 9166,
+      "tag": 113,
+      "length": 7,
+      "hex": "676574696e666f",
+      "utf8": "getinfo"
+    },
+    {
+      "index": 636,
+      "offset": 12814,
+      "tag": 113,
+      "length": 1,
+      "hex": "43",
+      "utf8": "C"
+    },
+    {
+      "index": 649,
+      "offset": 142460,
+      "tag": 113,
+      "length": 11,
+      "hex": "6c696e65646566696e6564",
+      "utf8": "linedefined"
+    },
+    {
+      "index": 663,
+      "offset": 9461,
+      "tag": 113,
+      "length": 4,
+      "hex": "77686174",
+      "utf8": "what"
+    },
+    {
+      "index": 667,
+      "offset": 9266,
+      "tag": 113,
+      "length": 3,
+      "hex": "5b435d",
+      "utf8": "[C]"
+    },
+    {
+      "index": 690,
+      "offset": 19130,
+      "tag": 113,
+      "length": 8,
+      "hex": "746f737472696e67",
+      "utf8": "tostring"
+    },
+    {
+      "index": 709,
+      "offset": 142722,
+      "tag": 113,
+      "length": 8,
+      "hex": "6973766172617267",
+      "utf8": "isvararg"
+    },
+    {
+      "index": 747,
+      "offset": 16707,
+      "tag": 113,
+      "length": 4,
+      "hex": "696e666f",
+      "utf8": "info"
+    },
+    {
+      "index": 871,
+      "offset": 143250,
+      "tag": 113,
+      "length": 4,
+      "hex": "3d5b435d",
+      "utf8": "=[C]"
+    },
+    {
+      "index": 907,
+      "offset": 144592,
+      "tag": 113,
+      "length": 7,
+      "hex": "6e706172616d73",
+      "utf8": "nparams"
+    }
+  ],
+  "limitations": "Only tags 31, 70, 113, 169, 170, 237 and 242 are implemented; the indices and input mutations are external static hypotheses."
+}

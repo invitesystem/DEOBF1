@@ -1,0 +1,67 @@
+{
+  "_provenance": {
+    "generator": "CodeRabbit",
+    "version": 1
+  },
+  "input_sha256": {
+    "buffer": "355e303adaf0a8d5ef77d776ee6407d55cda6c08bc7204603359fbb2fb2de6ba",
+    "table": "89689edd0b478a08089acc45f722b50b80de55aed222f2a4f86108272287ccaf"
+  },
+  "records": [
+    {
+      "index": 598,
+      "offset": 143307,
+      "start": 143309,
+      "length": 59,
+      "seed": 186,
+      "mask_index": 16,
+      "decoded_sha256": "613e256493541696f148568135fdf69ba3f983b95f40a0bea8e25cfed56d0d31",
+      "tables": {
+        "_provenance": {
+          "generator": "CodeRabbit",
+          "version": 1
+        },
+        "input_sha256": "613e256493541696f148568135fdf69ba3f983b95f40a0bea8e25cfed56d0d31",
+        "prefixes": [
+          1,
+          1,
+          11
+        ],
+        "counts": {
+          "G": 3,
+          "B": 3,
+          "g": 3,
+          "p": 3
+        },
+        "arrays": {
+          "G": [
+            2,
+            0,
+            231621393
+          ],
+          "B": [
+            9,
+            0,
+            471181689
+          ],
+          "g": [
+            58,
+            63,
+            1513530
+          ],
+          "p": [
+            0,
+            0,
+            426838290
+          ]
+        },
+        "mode": 201,
+        "slot": 16374,
+        "remaining_offset": 56,
+        "remaining_hex": "012f8c",
+        "limitations": "Layout inferred from the first tw record; field semantics and later bytes are not independently verified."
+      }
+    }
+  ],
+  "limitations": "Indices, record mutations and reachability are external hypotheses; decoded tables are not executed."
+}

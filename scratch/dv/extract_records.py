@@ -23,14 +23,17 @@ def extract(data: bytes, offsets: list[int], arrays: dict[str, list[int]],
             raise ValueError(f'pc out of range: {pc}')
         i = pc - 1
         opcode = arrays[{'Z95': 'G', 'Z240': 'p'}.get(mode, 'g')][i]
-        expected = {'E201': (53, 99), 'Z250': (56, 129), 'Z95': (14, 24, 63), 'Z240': (120,)}[mode]
+        expected = {'E201': (53, 99, 172), 'Z250': (56, 129), 'Z95': (14, 24, 63), 'Z240': (120,)}[mode]
         if opcode not in expected:
             raise ValueError(f'unexpected record opcode at pc {pc}')
-        index = arrays[{'E201': 'B', 'Z250': 'G', 'Z95': 'p', 'Z240': 'g'}[mode]][i]
+        if (mode, opcode) == ('E201', 172) and ('p' not in arrays or pc > len(arrays['p'])):
+            raise ValueError(f'pc out of range for direct record index: {pc}')
+        index = arrays['p' if (mode, opcode) == ('E201', 172) else
+                       {'E201': 'B', 'Z250': 'G', 'Z95': 'p', 'Z240': 'g'}[mode]][i]
         if not 1 <= index <= len(offsets):
             raise ValueError(f'record index out of range at pc {pc}')
-        if (mode, opcode) in (('Z95', 24), ('Z240', 120)):
-            key = arrays['B' if mode == 'Z95' else 'G'][i]
+        if (mode, opcode) in (('E201', 172), ('Z95', 24), ('Z240', 120)):
+            key = arrays['G' if mode == 'Z240' else 'B'][i]
         else:
             seed = f_seed if opcode in (53, 56, 14) else b_seed
             encoded_key = arrays[{'E201': 'G', 'Z250': 'B', 'Z95': 'g'}[mode]][i]

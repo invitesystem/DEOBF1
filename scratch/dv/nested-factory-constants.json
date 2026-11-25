@@ -1,0 +1,158 @@
+{
+  "_provenance": {
+    "generator": "CodeRabbit",
+    "version": 1
+  },
+  "input_sha256": {
+    "buffer": "72ba1d4f037ecf82ddf9a99ad7758d627806ac3da2ea2f1638938a990e02787b",
+    "table": "b6751a62b30518034c0d488daf27332dabd9f4cad4affa7d6f581404930b5ab5"
+  },
+  "constants": [
+    {
+      "index": 659,
+      "offset": 144660,
+      "tag": 170,
+      "length": 3,
+      "hex": "01481f",
+      "captures": [
+        [
+          0,
+          32,
+          18
+        ]
+      ],
+      "remaining_hex": ""
+    },
+    {
+      "index": 604,
+      "offset": 137483,
+      "tag": 170,
+      "length": 5,
+      "hex": "0287138237",
+      "captures": [
+        [
+          3,
+          9644,
+          228
+        ],
+        [
+          3,
+          9644,
+          77
+        ]
+      ],
+      "remaining_hex": ""
+    },
+    {
+      "index": 402,
+      "offset": 19312,
+      "tag": 170,
+      "length": 5,
+      "hex": "02841b841f",
+      "captures": [
+        [
+          3,
+          9644,
+          134
+        ],
+        [
+          3,
+          9644,
+          135
+        ]
+      ],
+      "remaining_hex": ""
+    },
+    {
+      "index": 434,
+      "offset": 143160,
+      "tag": 170,
+      "length": 5,
+      "hex": "028413866b",
+      "captures": [
+        [
+          3,
+          9644,
+          132
+        ],
+        [
+          3,
+          9644,
+          218
+        ]
+      ],
+      "remaining_hex": ""
+    },
+    {
+      "index": 83,
+      "offset": 13415,
+      "tag": 170,
+      "length": 5,
+      "hex": "02841f841b",
+      "captures": [
+        [
+          3,
+          9644,
+          135
+        ],
+        [
+          3,
+          9644,
+          134
+        ]
+      ],
+      "remaining_hex": ""
+    },
+    {
+      "index": 560,
+      "offset": 12237,
+      "tag": 170,
+      "length": 5,
+      "hex": "02842f8433",
+      "captures": [
+        [
+          3,
+          9644,
+          139
+        ],
+        [
+          3,
+          9644,
+          140
+        ]
+      ],
+      "remaining_hex": ""
+    },
+    {
+      "index": 499,
+      "offset": 14973,
+      "tag": 70,
+      "value": 1634760805
+    },
+    {
+      "index": 684,
+      "offset": 144770,
+      "tag": 70,
+      "value": 857760878
+    },
+    {
+      "index": 149,
+      "offset": 16551,
+      "tag": 70,
+      "value": 2036477234
+    },
+    {
+      "index": 429,
+      "offset": 7853,
+      "tag": 70,
+      "value": 1797285236
+    },
+    {
+      "index": 283,
+      "offset": 9808,
+      "tag": 237,
+      "value": 4294967295
+    }
+  ],
+  "limitations": "Only tags 28, 31, 70, 104, 113, 167, 169, 170, 195, 203, 218, 237, 242 and 244 are implemented; the indices and input mutations are external static hypotheses."
+}

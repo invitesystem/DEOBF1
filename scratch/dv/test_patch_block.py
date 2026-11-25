@@ -65,6 +65,15 @@ class PatchBlockTest(unittest.TestCase):
                          [64, 0, 0, 64])
         self.assertEqual(result['arrays']['p'][0], 154)
 
+    def test_z240_seeded_block_variants(self):
+        for opcode in (0, 177):
+            arrays = {'g': [1, 0], 'G': [1, 0], 'B': [1, 0], 'p': [opcode, 0]}
+            result = patch(arrays, 1, 0, 'Z240')
+            self.assertEqual(result['initial_state'], 1)
+            self.assertEqual([result['arrays'][name][1] for name in ('g', 'G', 'B', 'p')],
+                             [64, 0, 0, 64])
+            self.assertEqual(result['arrays']['p'][0], 154)
+
     def test_direct_seed_for_z95_and_z250(self):
         for mode, arrays, expected, opcode_field, replacement in (
             ('Z95', {'g': [1, 0], 'G': [121, 0], 'B': [1, 0], 'p': [1, 0]},
@@ -76,6 +85,13 @@ class PatchBlockTest(unittest.TestCase):
             self.assertEqual(result['initial_state'], 1)
             self.assertEqual([result['arrays'][name][1] for name in ('g', 'G', 'B', 'p')], expected)
             self.assertEqual(result['arrays'][opcode_field][0], replacement)
+
+    def test_e201_direct_seed_variant(self):
+        arrays = {'g': [170, 0], 'G': [1, 0], 'B': [1, 0], 'p': [1, 0]}
+        result = patch(arrays, 1, 123, 'E201')
+        self.assertEqual(result['initial_state'], 1)
+        self.assertEqual([result['arrays'][name][1] for name in ('g', 'G', 'B', 'p')], [64, 64, 0, 0])
+        self.assertEqual(result['arrays']['g'][0], 27)
 
 
 if __name__ == '__main__':
